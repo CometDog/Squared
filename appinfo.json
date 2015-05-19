@@ -1,0 +1,22 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "James Downs",
+    "longName": "Squared",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Squared",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "3774eb9a-3e5f-4b29-8860-3c4c8c1656bd",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
