@@ -7,7 +7,58 @@
     "longName": "Squared",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "images/one.png",
+                "name": "ONE",
+                "type": "png"
+            },
+            {
+                "file": "images/two.png",
+                "name": "TWO",
+                "type": "png"
+            },
+            {
+                "file": "images/three.png",
+                "name": "THREE",
+                "type": "png"
+            },
+            {
+                "file": "images/four.png",
+                "name": "FOUR",
+                "type": "png"
+            },
+            {
+                "file": "images/five.png",
+                "name": "FIVE",
+                "type": "png"
+            },
+            {
+                "file": "images/six.png",
+                "name": "SIX",
+                "type": "png"
+            },
+            {
+                "file": "images/seven.png",
+                "name": "SEVEN",
+                "type": "png"
+            },
+            {
+                "file": "images/eight.png",
+                "name": "EIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/nine.png",
+                "name": "NINE",
+                "type": "png"
+            },
+            {
+                "file": "images/zero.png",
+                "name": "ZERO",
+                "type": "png"
+            }
+        ]
     },
     "sdkVersion": "3",
     "shortName": "Squared",
@@ -15,6 +66,7 @@
         "basalt"
     ],
     "uuid": "3774eb9a-3e5f-4b29-8860-3c4c8c1656bd",
+    "versionCode": "1",
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": true
