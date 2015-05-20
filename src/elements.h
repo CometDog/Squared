@@ -1,3 +1,9 @@
+/*
+Squared
+    Copyright (C) 2015 James Downs
+    james.j.downs@icloud.com
+*/
+
 #define BOXX 72
 #define BOXY 84
 
