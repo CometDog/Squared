@@ -33,6 +33,8 @@ static void update_bg(Layer *layer, GContext *ctx) {
   struct tm *t = localtime(&epoch);
   
   int8_t hour;
+  int8_t hour1;
+  int8_t hour2;
   
   if (clock_is_24h_style() == true) {
     hour = t->tm_hour;
@@ -41,8 +43,14 @@ static void update_bg(Layer *layer, GContext *ctx) {
     hour = t->tm_hour % 12;
   }
   
-  int8_t hour1 = hour / 10;
-  int8_t hour2 = hour - (hour1 * 10);
+  if (clock_is_24h_style() == false && t->tm_hour == 12) {
+    hour1 = 1;
+    hour2 = 2;
+  }
+  else {
+    hour1 = hour / 10;
+    hour2 = hour - (hour1 * 10);
+  }
   int8_t minute1 = t->tm_min / 10;
   int8_t minute2 = t->tm_min - (minute1 * 10);
   
