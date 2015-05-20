@@ -79,6 +79,7 @@ static const bool SHOW_POINTERS = false;
 // Layer Helpers
 #define layer_create_fullscreen(window) layer_create(layer_get_bounds(window_get_root_layer(window)));
 #define layer_add_to_window(layer, window) layer_add_child(window_get_root_layer(window), layer)
+#define layer_add_to_layer(layer1, layer2) layer_add_child(layer2, layer1)
 #define layer_show(layer) layer_set_hidden((Layer *)layer, false)
 #define layer_hide(layer) layer_set_hidden((Layer *)layer, true)
 #define layer_destroy_safe(layer) if (NULL != layer) { if (SHOW_POINTERS) { DEBUG("Layer Destroy Safe: %p", layer); } layer_destroy(layer); layer = NULL; }

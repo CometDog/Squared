@@ -23,5 +23,6 @@ typedef enum {
   RESOURCE_ID_EIGHT, // 9
   RESOURCE_ID_NINE, // 10
   RESOURCE_ID_ZERO, // 11
+  RESOURCE_ID_BACKGROUND, // 12
 
 } ResourceId;

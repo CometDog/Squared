@@ -63,6 +63,11 @@
                 "file": "images/zero.png",
                 "name": "ZERO",
                 "type": "png"
+            },
+            {
+                "file": "images/background.png",
+                "name": "BACKGROUND",
+                "type": "png"
             }
         ]
     },
@@ -73,7 +78,7 @@
     ],
     "uuid": "3774eb9a-3e5f-4b29-8860-3c4c8c1656bd",
     "versionCode": "1",
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }
