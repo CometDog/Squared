@@ -1,7 +1,7 @@
 Archive member included because of file (symbol)
 
 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                              src/main.c.20.o (app_event_loop)
+                              src/main.c.21.o (app_event_loop)
 
 Discarded input sections
 
@@ -17,10 +17,10 @@ Discarded input sections
  .jcr           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .tm_clone_table
                 0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .text          0x0000000000000000        0x0 src/main.c.20.o
- .bss           0x0000000000000000        0x0 src/main.c.20.o
- .text          0x0000000000000000        0x0 basalt/appinfo.auto.c.20.o
- .bss           0x0000000000000000        0x0 basalt/appinfo.auto.c.20.o
+ .text          0x0000000000000000        0x0 src/main.c.21.o
+ .bss           0x0000000000000000        0x0 src/main.c.21.o
+ .text          0x0000000000000000        0x0 basalt/appinfo.auto.c.21.o
+ .bss           0x0000000000000000        0x0 basalt/appinfo.auto.c.21.o
  .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
  .text.accel_data_service_subscribe__deprecated
                 0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
@@ -1007,8 +1007,8 @@ Linker script and memory map
 
 LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
 LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-LOAD src/main.c.20.o
-LOAD basalt/appinfo.auto.c.20.o
+LOAD src/main.c.21.o
+LOAD basalt/appinfo.auto.c.21.o
 LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a
 START GROUP
 LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a
@@ -1019,7 +1019,7 @@ LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/ar
 
 .header         0x0000000000000000       0x82
  *(.pbl_header)
- .pbl_header    0x0000000000000000       0x82 basalt/appinfo.auto.c.20.o
+ .pbl_header    0x0000000000000000       0x82 basalt/appinfo.auto.c.21.o
                 0x0000000000000000                __pbl_app_info
 
 .note.gnu.build-id
@@ -1035,15 +1035,15 @@ LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/ar
  .text          0x00000000000000a8       0x14 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
  *(.text.*)
  .text.tick_handler
-                0x00000000000000bc       0x10 src/main.c.20.o
+                0x00000000000000bc       0x10 src/main.c.21.o
  .text.main_window_unload
-                0x00000000000000cc       0xb8 src/main.c.20.o
+                0x00000000000000cc       0xb8 src/main.c.21.o
  .text.main_window_load
-                0x0000000000000184      0x104 src/main.c.20.o
+                0x0000000000000184      0x104 src/main.c.21.o
  .text.update_bg
-                0x0000000000000288      0x160 src/main.c.20.o
+                0x0000000000000288      0x160 src/main.c.21.o
  .text.startup.main
-                0x00000000000003e8       0x6c src/main.c.20.o
+                0x00000000000003e8       0x6c src/main.c.21.o
                 0x00000000000003e8                main
  .text.app_event_loop
                 0x0000000000000454        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
@@ -1116,10 +1116,10 @@ LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/ar
  .text.time     0x0000000000000568        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
                 0x0000000000000568                time
  *(.rodata)
- .rodata        0x0000000000000574       0x20 src/main.c.20.o
+ .rodata        0x0000000000000574       0x20 src/main.c.21.o
  *(.rodata*)
  .rodata.TIME_RESOURCE_IDS
-                0x0000000000000594       0x28 src/main.c.20.o
+                0x0000000000000594       0x28 src/main.c.21.o
                 0x0000000000000594                TIME_RESOURCE_IDS
 
 .glue_7         0x00000000000005bc        0x0
@@ -1145,8 +1145,8 @@ LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/ar
  .data          0x00000000000005bc        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
  .data          0x00000000000005bc        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
                 0x00000000000005bc                __dso_handle
- .data          0x00000000000005c0        0x0 src/main.c.20.o
- .data          0x00000000000005c0        0x0 basalt/appinfo.auto.c.20.o
+ .data          0x00000000000005c0        0x0 src/main.c.21.o
+ .data          0x00000000000005c0        0x0 basalt/appinfo.auto.c.21.o
  .data          0x00000000000005c0        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
  .data          0x00000000000005c0        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
  .data          0x00000000000005c0        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
@@ -1159,25 +1159,25 @@ LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/ar
  *(.bss)
  *(.bss.*)
  .bss.s_main_window
-                0x00000000000005c0        0x4 src/main.c.20.o
+                0x00000000000005c0        0x4 src/main.c.21.o
  .bss.s_background_layer
-                0x00000000000005c4        0x4 src/main.c.20.o
+                0x00000000000005c4        0x4 src/main.c.21.o
  .bss.s_hour1_bitmap
-                0x00000000000005c8        0x4 src/main.c.20.o
+                0x00000000000005c8        0x4 src/main.c.21.o
  .bss.s_hour1_layer
-                0x00000000000005cc        0x4 src/main.c.20.o
+                0x00000000000005cc        0x4 src/main.c.21.o
  .bss.s_minute1_layer
-                0x00000000000005d0        0x4 src/main.c.20.o
+                0x00000000000005d0        0x4 src/main.c.21.o
  .bss.s_hour2_bitmap
-                0x00000000000005d4        0x4 src/main.c.20.o
+                0x00000000000005d4        0x4 src/main.c.21.o
  .bss.s_hour2_layer
-                0x00000000000005d8        0x4 src/main.c.20.o
+                0x00000000000005d8        0x4 src/main.c.21.o
  .bss.s_minute2_layer
-                0x00000000000005dc        0x4 src/main.c.20.o
+                0x00000000000005dc        0x4 src/main.c.21.o
  .bss.s_minute2_bitmap
-                0x00000000000005e0        0x4 src/main.c.20.o
+                0x00000000000005e0        0x4 src/main.c.21.o
  .bss.s_minute1_bitmap
-                0x00000000000005e4        0x4 src/main.c.20.o
+                0x00000000000005e4        0x4 src/main.c.21.o
 
 DISCARD
  libc.a(*)
@@ -1193,9 +1193,9 @@ OUTPUT(/Users/James/Development Workspaces/Pebble/Squared/build/basalt/pebble-ap
  .ARM.attributes
                 0x0000000000000019       0x29 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .ARM.attributes
-                0x0000000000000042       0x33 src/main.c.20.o
+                0x0000000000000042       0x33 src/main.c.21.o
  .ARM.attributes
-                0x0000000000000075       0x33 basalt/appinfo.auto.c.20.o
+                0x0000000000000075       0x33 basalt/appinfo.auto.c.21.o
  .ARM.attributes
                 0x00000000000000a8       0x21 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
  .ARM.attributes
@@ -1206,39 +1206,39 @@ OUTPUT(/Users/James/Development Workspaces/Pebble/Squared/build/basalt/pebble-ap
 .comment        0x0000000000000000       0x4e
  .comment       0x0000000000000000       0x4e /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
                                          0x4f (size before relaxing)
- .comment       0x0000000000000000       0x4f src/main.c.20.o
- .comment       0x0000000000000000       0x4f basalt/appinfo.auto.c.20.o
+ .comment       0x0000000000000000       0x4f src/main.c.21.o
+ .comment       0x0000000000000000       0x4f basalt/appinfo.auto.c.21.o
  .comment       0x0000000000000000       0x4f /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000      0xf58
- .debug_info    0x0000000000000000      0xbe7 src/main.c.20.o
- .debug_info    0x0000000000000be7      0x371 basalt/appinfo.auto.c.20.o
+.debug_info     0x0000000000000000      0xf64
+ .debug_info    0x0000000000000000      0xbed src/main.c.21.o
+ .debug_info    0x0000000000000bed      0x377 basalt/appinfo.auto.c.21.o
 
 .debug_abbrev   0x0000000000000000      0x304
- .debug_abbrev  0x0000000000000000      0x266 src/main.c.20.o
- .debug_abbrev  0x0000000000000266       0x9e basalt/appinfo.auto.c.20.o
+ .debug_abbrev  0x0000000000000000      0x266 src/main.c.21.o
+ .debug_abbrev  0x0000000000000266       0x9e basalt/appinfo.auto.c.21.o
 
 .debug_loc      0x0000000000000000      0x260
- .debug_loc     0x0000000000000000      0x260 src/main.c.20.o
+ .debug_loc     0x0000000000000000      0x260 src/main.c.21.o
 
 .debug_aranges  0x0000000000000000       0x58
  .debug_aranges
-                0x0000000000000000       0x40 src/main.c.20.o
+                0x0000000000000000       0x40 src/main.c.21.o
  .debug_aranges
-                0x0000000000000040       0x18 basalt/appinfo.auto.c.20.o
+                0x0000000000000040       0x18 basalt/appinfo.auto.c.21.o
 
 .debug_ranges   0x0000000000000000       0x30
- .debug_ranges  0x0000000000000000       0x30 src/main.c.20.o
+ .debug_ranges  0x0000000000000000       0x30 src/main.c.21.o
 
 .debug_line     0x0000000000000000      0x460
- .debug_line    0x0000000000000000      0x321 src/main.c.20.o
- .debug_line    0x0000000000000321      0x13f basalt/appinfo.auto.c.20.o
+ .debug_line    0x0000000000000000      0x321 src/main.c.21.o
+ .debug_line    0x0000000000000321      0x13f basalt/appinfo.auto.c.21.o
 
-.debug_str      0x0000000000000000      0x832
- .debug_str     0x0000000000000000      0x608 src/main.c.20.o
-                                        0x6ac (size before relaxing)
- .debug_str     0x0000000000000608      0x22a basalt/appinfo.auto.c.20.o
-                                        0x3f1 (size before relaxing)
+.debug_str      0x0000000000000000      0x843
+ .debug_str     0x0000000000000000      0x619 src/main.c.21.o
+                                        0x6bd (size before relaxing)
+ .debug_str     0x0000000000000619      0x22a basalt/appinfo.auto.c.21.o
+                                        0x402 (size before relaxing)
 
 .debug_frame    0x0000000000000000       0xa4
- .debug_frame   0x0000000000000000       0xa4 src/main.c.20.o
+ .debug_frame   0x0000000000000000       0xa4 src/main.c.21.o
