@@ -205,7 +205,7 @@ static void timer_callback(void *data) {
 
 static void tap_handler(AccelAxisType axis, int32_t direction) {
   animations = true;
-  app_timer_register(180 * 1000, timer_callback, NULL);
+  app_timer_reschedule(timer, 180 * 1000);
 }
 
 static void bt_handler(bool connected) {
@@ -287,7 +287,7 @@ static void init() {
   accel_tap_service_subscribe(tap_handler);
   bluetooth_connection_service_subscribe(bt_handler);
   
-  app_timer_register(180 * 1000, timer_callback, NULL);
+  timer = app_timer_register(180 * 1000, timer_callback, NULL);
   
   do_hour1 = true;
   do_hour2 = true;

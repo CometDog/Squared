@@ -17,6 +17,8 @@ static BitmapLayer *s_hour1_layer, *s_hour2_layer, *s_minute1_layer, *s_minute2_
 static GBitmap *s_hour1_bitmap, *s_hour2_bitmap, *s_minute1_bitmap, *s_minute2_bitmap, *s_material_bitmap; 
 static PropertyAnimation *s_hour1_animation, *s_hour2_animation, *s_minute1_animation, *s_minute2_animation;
 
+static AppTimer *timer = NULL;
+
 static int8_t hour;
 static int8_t hour1;
 static int8_t hour2;
