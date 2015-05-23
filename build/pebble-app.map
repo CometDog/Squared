@@ -1,971 +1,975 @@
 Archive member included because of file (symbol)
 
-/Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+/Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
                               src/main.c.22.o (accel_tap_service_subscribe)
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .init          0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .fini          0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .text          0x0000000000000000       0xc8 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .bss           0x0000000000000000       0x1c /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .init_array    0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .fini_array    0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .eh_frame      0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .jcr           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .text          0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .init          0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .fini          0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .text          0x0000000000000000       0xc8 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .bss           0x0000000000000000       0x1c /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .jcr           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .tm_clone_table
-                0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .text          0x0000000000000000        0x0 src/main.c.22.o
  .bss           0x0000000000000000        0x0 src/main.c.22.o
  .text          0x0000000000000000        0x0 basalt/appinfo.auto.c.22.o
  .bss           0x0000000000000000        0x0 basalt/appinfo.auto.c.22.o
- .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+ .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.accel_data_service_subscribe__deprecated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.accel_data_service_unsubscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.accel_service_peek
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.accel_service_set_samples_per_update
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.accel_service_set_sampling_rate
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_add_to_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_clear_icon
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_remove_from_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_set_background_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_set_click_config_provider
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_set_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_legacy2_set_icon
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_get_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_is_scheduled
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_schedule
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_set_curve
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_set_delay
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_set_duration
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_set_handlers
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_set_implementation
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_unschedule
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_unschedule_all
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_comm_get_sniff_interval
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_comm_set_sniff_interval
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.app_log  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.app_log  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_deregister_callbacks
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_open
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_sync_deinit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_sync_get
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_sync_init
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_sync_set
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.app_timer_cancel
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.app_timer_reschedule
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.atan2_lookup
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.atoi     0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.atol     0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.atoi     0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.atol     0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.battery_state_service_peek
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.battery_state_service_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.battery_state_service_unsubscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.bitmap_layer_set_alignment
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.bitmap_layer_set_background_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.bitmap_layer_set_compositing_mode
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.bluetooth_connection_service_peek
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.click_number_of_clicks_counted
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.click_recognizer_get_button_id
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.clock_copy_time_string
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.cos_lookup
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.data_logging_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.data_logging_finish
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.data_logging_log
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_calc_buffer_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_calc_buffer_size_from_tuplets
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_find
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_merge
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_read_begin_from_buffer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_read_first
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_read_next
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_serialize_tuplets
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_serialize_tuplets_to_buffer__deprecated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_serialize_tuplets_to_buffer_with_iter
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_begin
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_cstring
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_end
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_int
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_int16
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_int32
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_int8
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_tuplet
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_uint16
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_uint32
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_write_uint8
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.fonts_get_system_font
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.fonts_load_custom_font
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.fonts_unload_custom_font
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.free     0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.free     0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_create_as_sub_bitmap
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_create_with_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.gmtime   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.gmtime   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpath_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpath_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpath_draw_filled_legacy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpath_draw_outline
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpath_move_to
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpath_rotate_to
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpoint_equal
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_compositing_mode
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_fill_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_stroke_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_text_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_draw_bitmap_in_rect
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_draw_circle
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_draw_line
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_draw_pixel
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_draw_rect
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_draw_round_rect
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_fill_circle
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_fill_rect
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_text_layout_get_max_used_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.grect_align
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.grect_clip
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.grect_contains_point
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.grect_crop
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.grect_equal
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.grect_is_empty
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.grect_standardize
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gsize_equal
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.inverter_layer_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.inverter_layer_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.inverter_layer_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_create_with_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_get_clips
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_get_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_get_frame
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_get_hidden
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_get_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_insert_above_sibling
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_insert_below_sibling
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_remove_child_layers
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_remove_from_parent
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_set_bounds
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_set_clips
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_set_frame
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.layer_set_hidden
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.light_enable
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.light_enable_interaction
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.localtime__deprecated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.malloc   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.memcpy   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.memmove  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.malloc   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.memcpy   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.memmove  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_cell_basic_draw
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_cell_basic_header_draw
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_cell_title_draw
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_index_compare
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_legacy2_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_get_scroll_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_get_selected_index
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_reload_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_legacy2_set_callbacks__deprecated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_set_click_config_onto_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_set_selected_index
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_set_selected_next
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_get_value
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_set_label
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_set_max
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_set_min
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_set_step_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_set_value
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_delete
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_exists
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_get_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_read_bool
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_read_data__deprecated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_read_int
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_read_string__deprecated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_write_bool
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_write_data__deprecated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_write_int
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_write_string
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_legacy2_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_legacy2_create_layer_frame
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_legacy2_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_legacy2_update_gpoint
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_legacy2_update_grect
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_legacy2_update_int16
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.psleep   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.rand     0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.psleep   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.rand     0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.resource_get_handle
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.resource_load
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.resource_load_byte_range
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.resource_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.rot_bitmap_layer_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.rot_bitmap_layer_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.rot_bitmap_layer_increment_angle
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.rot_bitmap_layer_set_angle
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.rot_bitmap_layer_set_corner_clip_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.rot_bitmap_set_compositing_mode
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.rot_bitmap_set_src_ic
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_add_child
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_get_content_offset
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_get_content_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_get_shadow_hidden
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_scroll_down_click_handler
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_scroll_up_click_handler
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_set_callbacks
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_set_click_config_onto_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_set_content_offset
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_set_content_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_set_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_set_frame
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.scroll_layer_set_shadow_hidden
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.simple_menu_layer_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.simple_menu_layer_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.simple_menu_layer_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.simple_menu_layer_get_selected_index
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.simple_menu_layer_set_selected_index
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.sin_lookup
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.snprintf
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.srand    0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.strcat   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.strcmp   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.strcpy   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.srand    0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.strcat   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.strcmp   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.strcpy   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.strftime
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.strlen   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.strncat  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.strncmp  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.strncpy  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.strlen   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.strncat  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.strncmp  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.strncpy  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_get_content_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_get_text
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_set_background_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_set_font
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_set_overflow_mode
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_set_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_set_text
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_set_text_alignment
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_legacy2_set_text_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.tick_timer_service_unsubscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.time__deprecated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.time_ms  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.time_ms_deprecated
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.vibes_cancel
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.vibes_enqueue_custom_pattern
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.vibes_long_pulse
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_get_click_config_provider
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_get_fullscreen
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_is_loaded
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_set_background_color_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_set_click_config_provider
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_set_click_config_provider_with_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_set_fullscreen
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_set_status_bar_icon
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_stack_contains_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_stack_get_top_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_stack_pop
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_stack_pop_all
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_stack_remove
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_focus_service_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_focus_service_unsubscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_get_user_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_set_user_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_get_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_inbox_size_maximum
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_outbox_begin
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_outbox_send
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_outbox_size_maximum
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_register_inbox_dropped
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_register_inbox_received
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_register_outbox_failed
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_register_outbox_sent
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_message_set_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_long_click_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_multi_click_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_raw_click_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_set_click_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_single_click_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_single_repeating_click_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_draw_text
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_serialize_tuplets_to_buffer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_read_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_read_string
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.persist_write_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.dict_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_text_layout_get_content_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.simple_menu_layer_get_menu_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.accel_data_service_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.calloc   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.calloc   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.bitmap_layer_get_bitmap
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_legacy2_set_callbacks
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_get_click_config_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.number_window_get_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.realloc  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.realloc  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_create_blank_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.click_recognizer_is_repeating
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.accel_raw_data_service_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_worker_is_running
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_worker_kill
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_worker_launch
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_worker_message_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_worker_message_unsubscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.app_worker_send_message
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.worker_event_loop
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.worker_launch_app
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.heap_bytes_free
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.heap_bytes_used
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.compass_service_peek
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.compass_service_set_heading_filter
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.compass_service_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.compass_service_unsubscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.uuid_equal
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.uuid_to_string
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpath_draw_filled
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_legacy2_set_custom_curve
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.watch_info_get_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.watch_info_get_firmware_version
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.watch_info_get_model
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_capture_frame_buffer_2bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_frame_buffer_is_captured
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_release_frame_buffer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.clock_to_timestamp
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.launch_reason
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.wakeup_cancel
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.wakeup_cancel_all
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.wakeup_get_launch_event
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.wakeup_query
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.wakeup_schedule
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.wakeup_service_subscribe
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.clock_is_timezone_set
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.i18n_get_system_locale
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text._localeconv_r
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.setlocale
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text.mktime   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.mktime   0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gcolor_equal
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.__profiler_init
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.__profiler_print_stats
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.__profiler_start
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.__profiler_stop
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.bitmap_layer_set_background_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_fill_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_stroke_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_text_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.rot_bitmap_layer_set_corner_clip_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.window_set_background_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.clock_get_timezone
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_is_scheduled
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_set_custom_curve
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_set_implementation
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_unschedule
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_create_blank
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_capture_frame_buffer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_capture_frame_buffer_format
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_from
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_get_animation
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_subject
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_to
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_update_gpoint
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_update_grect
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_update_int16
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_create_blank_with_palette
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_get_bounds
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_get_bytes_per_row
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_get_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_get_format
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_get_palette
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_set_bounds
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_set_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_set_palette
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_create_with_resource
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_get_bitmap_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_get_current_frame_idx
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_get_total_num_frames
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_update_bitmap_next_frame
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_create_from_png_data
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_clone
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_delay
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_duration
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_play_count
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_elapsed
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_reverse
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_sequence_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_sequence_create_from_array
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_set_play_count
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_set_elapsed
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_set_reverse
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_spawn_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_spawn_create_from_array
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_curve
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_custom_curve
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.animation_get_implementation
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.launch_get_args
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_get_play_count
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_restart
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_set_play_count
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_antialiased
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_context_set_stroke_width
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_add_to_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_clear_icon
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_remove_from_window
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_set_background_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_set_click_config_provider
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_set_context
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_set_icon
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_set_icon_animated
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_sequence_update_bitmap_by_elapsed
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gbitmap_create_palettized_from_1bit
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_cell_layer_is_highlighted
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.graphics_draw_rotated_bitmap
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.action_bar_layer_set_icon_press_animation
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_get_content_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_get_text
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_set_background_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_set_font
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_set_overflow_mode
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_set_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_set_text
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_set_text_alignment
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.text_layer_set_text_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_draw
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_frame_draw
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_frame_get_duration
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_frame_set_duration
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_fill_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_hidden
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_num_points
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_path_open
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_point
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_radius
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_stroke_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_stroke_width
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_get_type
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_image_clone
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_image_create_with_resource
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_image_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_image_draw
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_image_get_bounds_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_image_get_command_list
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_image_set_bounds_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_list_draw
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_list_get_command
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_list_get_num_commands
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_list_iterate
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_clone
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_create_with_resource
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_get_bounds_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_get_frame_by_elapsed
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_get_frame_by_index
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_get_num_frames
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_get_play_count
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_get_total_duration
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_set_bounds_size
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_sequence_set_play_count
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_set_fill_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_set_hidden
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_set_path_open
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_set_point
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_set_radius
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_set_stroke_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gdraw_command_set_stroke_width
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_create_bounds_origin
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.property_animation_update_uint32
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.gpath_draw_outline_open
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_set_highlight_colors
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_set_normal_colors
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_set_callbacks
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.menu_layer_pad_bottom_enable
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.status_bar_layer_create
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.status_bar_layer_destroy
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.status_bar_layer_get_background_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.status_bar_layer_get_foreground_color
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.status_bar_layer_get_layer
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.status_bar_layer_set_colors
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .text.status_bar_layer_set_separator_mode
-                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .text          0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .eh_frame      0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .jcr           0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.difftime
+                0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text.time_ms  0x0000000000000000        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .text          0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .jcr           0x0000000000000000        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
  .tm_clone_table
-                0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .text          0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
- .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
- .init          0x0000000000000000        0x8 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
- .fini          0x0000000000000000        0x8 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+                0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .text          0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .bss           0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .init          0x0000000000000000        0x8 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .fini          0x0000000000000000        0x8 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
 
 Memory Configuration
 
@@ -975,17 +979,17 @@ APP              0x0000000000000000 0x0000000000010000 xrw
 
 Linker script and memory map
 
-LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
-LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 LOAD src/main.c.22.o
 LOAD basalt/appinfo.auto.c.22.o
-LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a
+LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a
 START GROUP
-LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a
-LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a
+LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a
+LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a
 END GROUP
-LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
-LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
 
 .header         0x0000000000000000       0x82
  *(.pbl_header)
@@ -1000,9 +1004,9 @@ LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/ar
  .note.gnu.build-id
                 0x0000000000000084       0x24 linker stubs
 
-.text           0x00000000000000a8      0xc9c
+.text           0x00000000000000a8      0xcb0
  *(.text)
- .text          0x00000000000000a8       0x14 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+ .text          0x00000000000000a8       0x14 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  *(.text.*)
  .text.timer_callback
                 0x00000000000000bc       0x10 src/main.c.22.o
@@ -1012,246 +1016,246 @@ LOAD /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/ar
                 0x00000000000003ac        0xa src/main.c.22.o
  *fill*         0x00000000000003b6        0x2 
  .text.tap_handler
-                0x00000000000003b8       0x20 src/main.c.22.o
+                0x00000000000003b8       0x34 src/main.c.22.o
  .text.update_time
-                0x00000000000003d8      0x188 src/main.c.22.o
+                0x00000000000003ec      0x188 src/main.c.22.o
  .text.tick_handler
-                0x0000000000000560        0x4 src/main.c.22.o
+                0x0000000000000574        0x4 src/main.c.22.o
  .text.main_window_unload
-                0x0000000000000564      0x130 src/main.c.22.o
+                0x0000000000000578      0x130 src/main.c.22.o
  .text.main_window_load
-                0x0000000000000694      0x1dc src/main.c.22.o
+                0x00000000000006a8      0x1dc src/main.c.22.o
  .text.anim_stopped_handler
-                0x0000000000000870       0x64 src/main.c.22.o
+                0x0000000000000884       0x64 src/main.c.22.o
  .text.update_bg
-                0x00000000000008d4      0x140 src/main.c.22.o
+                0x00000000000008e8      0x140 src/main.c.22.o
  .text.startup.main
-                0x0000000000000a14       0xf4 src/main.c.22.o
-                0x0000000000000a14                main
+                0x0000000000000a28       0xf4 src/main.c.22.o
+                0x0000000000000a28                main
  .text.accel_tap_service_subscribe
-                0x0000000000000b08        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b08                accel_tap_service_subscribe
+                0x0000000000000b1c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b1c                accel_tap_service_subscribe
  .text.accel_tap_service_unsubscribe
-                0x0000000000000b14        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b14                accel_tap_service_unsubscribe
+                0x0000000000000b28        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b28                accel_tap_service_unsubscribe
  .text.app_event_loop
-                0x0000000000000b20        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b20                app_event_loop
+                0x0000000000000b34        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b34                app_event_loop
+ .text.app_timer_cancel
+                0x0000000000000b40        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b40                app_timer_cancel
  .text.app_timer_register
-                0x0000000000000b2c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b2c                app_timer_register
- .text.app_timer_reschedule
-                0x0000000000000b38        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b38                app_timer_reschedule
+                0x0000000000000b4c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b4c                app_timer_register
  .text.bitmap_layer_create
-                0x0000000000000b44        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b44                bitmap_layer_create
+                0x0000000000000b58        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b58                bitmap_layer_create
  .text.bitmap_layer_destroy
-                0x0000000000000b50        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b50                bitmap_layer_destroy
+                0x0000000000000b64        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b64                bitmap_layer_destroy
  .text.bitmap_layer_get_layer
-                0x0000000000000b5c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b5c                bitmap_layer_get_layer
+                0x0000000000000b70        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b70                bitmap_layer_get_layer
  .text.bitmap_layer_set_bitmap
-                0x0000000000000b68        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b68                bitmap_layer_set_bitmap
+                0x0000000000000b7c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b7c                bitmap_layer_set_bitmap
  .text.bluetooth_connection_service_subscribe
-                0x0000000000000b74        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b74                bluetooth_connection_service_subscribe
+                0x0000000000000b88        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b88                bluetooth_connection_service_subscribe
  .text.bluetooth_connection_service_unsubscribe
-                0x0000000000000b80        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b80                bluetooth_connection_service_unsubscribe
+                0x0000000000000b94        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000b94                bluetooth_connection_service_unsubscribe
  .text.clock_is_24h_style
-                0x0000000000000b8c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b8c                clock_is_24h_style
+                0x0000000000000ba0        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000ba0                clock_is_24h_style
  .text.gbitmap_create_with_resource
-                0x0000000000000b98        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000b98                gbitmap_create_with_resource
+                0x0000000000000bac        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000bac                gbitmap_create_with_resource
  .text.gbitmap_destroy
-                0x0000000000000ba4        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000ba4                gbitmap_destroy
+                0x0000000000000bb8        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000bb8                gbitmap_destroy
  .text.grect_center_point
-                0x0000000000000bb0        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000bb0                grect_center_point
+                0x0000000000000bc4        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000bc4                grect_center_point
  .text.layer_add_child
-                0x0000000000000bbc        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000bbc                layer_add_child
+                0x0000000000000bd0        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000bd0                layer_add_child
  .text.layer_create
-                0x0000000000000bc8        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000bc8                layer_create
+                0x0000000000000bdc        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000bdc                layer_create
  .text.layer_destroy
-                0x0000000000000bd4        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000bd4                layer_destroy
+                0x0000000000000be8        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000be8                layer_destroy
  .text.layer_get_bounds
-                0x0000000000000be0        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000be0                layer_get_bounds
+                0x0000000000000bf4        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000bf4                layer_get_bounds
  .text.layer_mark_dirty
-                0x0000000000000bec        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000bec                layer_mark_dirty
+                0x0000000000000c00        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c00                layer_mark_dirty
  .text.layer_set_update_proc
-                0x0000000000000bf8        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000bf8                layer_set_update_proc
- .text.memset   0x0000000000000c04        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c04                memset
+                0x0000000000000c0c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c0c                layer_set_update_proc
+ .text.memset   0x0000000000000c18        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c18                memset
  .text.tick_timer_service_subscribe
-                0x0000000000000c10        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c10                tick_timer_service_subscribe
+                0x0000000000000c24        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c24                tick_timer_service_subscribe
  .text.vibes_double_pulse
-                0x0000000000000c1c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c1c                vibes_double_pulse
+                0x0000000000000c30        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c30                vibes_double_pulse
  .text.vibes_short_pulse
-                0x0000000000000c28        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c28                vibes_short_pulse
+                0x0000000000000c3c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c3c                vibes_short_pulse
  .text.window_create
-                0x0000000000000c34        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c34                window_create
+                0x0000000000000c48        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c48                window_create
  .text.window_destroy
-                0x0000000000000c40        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c40                window_destroy
+                0x0000000000000c54        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c54                window_destroy
  .text.window_get_root_layer
-                0x0000000000000c4c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c4c                window_get_root_layer
+                0x0000000000000c60        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c60                window_get_root_layer
  .text.window_set_window_handlers
-                0x0000000000000c58        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c58                window_set_window_handlers
+                0x0000000000000c6c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c6c                window_set_window_handlers
  .text.window_stack_push
-                0x0000000000000c64        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c64                window_stack_push
+                0x0000000000000c78        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c78                window_stack_push
  .text.localtime
-                0x0000000000000c70        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c70                localtime
+                0x0000000000000c84        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c84                localtime
  .text.animation_schedule
-                0x0000000000000c7c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c7c                animation_schedule
+                0x0000000000000c90        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c90                animation_schedule
  .text.animation_set_curve
-                0x0000000000000c88        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c88                animation_set_curve
+                0x0000000000000c9c        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000c9c                animation_set_curve
  .text.animation_set_delay
-                0x0000000000000c94        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000c94                animation_set_delay
+                0x0000000000000ca8        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000ca8                animation_set_delay
  .text.animation_set_duration
-                0x0000000000000ca0        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000ca0                animation_set_duration
+                0x0000000000000cb4        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000cb4                animation_set_duration
  .text.animation_set_handlers
-                0x0000000000000cac        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000cac                animation_set_handlers
+                0x0000000000000cc0        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000cc0                animation_set_handlers
  .text.animation_unschedule_all
-                0x0000000000000cb8        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000cb8                animation_unschedule_all
+                0x0000000000000ccc        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000ccc                animation_unschedule_all
  .text.property_animation_create_layer_frame
-                0x0000000000000cc4        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000cc4                property_animation_create_layer_frame
- .text.time     0x0000000000000cd0        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
-                0x0000000000000cd0                time
+                0x0000000000000cd8        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000cd8                property_animation_create_layer_frame
+ .text.time     0x0000000000000ce4        0xc /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+                0x0000000000000ce4                time
  *(.rodata)
- .rodata        0x0000000000000cdc       0x40 src/main.c.22.o
+ .rodata        0x0000000000000cf0       0x40 src/main.c.22.o
  *(.rodata*)
  .rodata.TIME_RESOURCE_IDS
-                0x0000000000000d1c       0x28 src/main.c.22.o
-                0x0000000000000d1c                TIME_RESOURCE_IDS
+                0x0000000000000d30       0x28 src/main.c.22.o
+                0x0000000000000d30                TIME_RESOURCE_IDS
 
-.glue_7         0x0000000000000d44        0x0
+.glue_7         0x0000000000000d58        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x0000000000000d44        0x0
+.glue_7t        0x0000000000000d58        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000000d44        0x0
+.vfp11_veneer   0x0000000000000d58        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000000000d44        0x0
+.v4_bx          0x0000000000000d58        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x0000000000000d44        0x0
- .iplt          0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.iplt           0x0000000000000d58        0x0
+ .iplt          0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x0000000000000d44        0x0
- .rel.iplt      0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.rel.dyn        0x0000000000000d58        0x0
+ .rel.iplt      0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.data           0x0000000000000d44        0x6
+.data           0x0000000000000d58        0x6
  *(.data)
- .data          0x0000000000000d44        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x0000000000000d44        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x0000000000000d44                __dso_handle
- .data          0x0000000000000d48        0x0 src/main.c.22.o
- .data          0x0000000000000d48        0x0 basalt/appinfo.auto.c.22.o
- .data          0x0000000000000d48        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
- .data          0x0000000000000d48        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x0000000000000d48        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x0000000000000d58        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x0000000000000d58        0x4 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000d58                __dso_handle
+ .data          0x0000000000000d5c        0x0 src/main.c.22.o
+ .data          0x0000000000000d5c        0x0 basalt/appinfo.auto.c.22.o
+ .data          0x0000000000000d5c        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
+ .data          0x0000000000000d5c        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x0000000000000d5c        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
  .data.animations
-                0x0000000000000d48        0x1 src/main.c.22.o
+                0x0000000000000d5c        0x1 src/main.c.22.o
  .data.first_run
-                0x0000000000000d49        0x1 src/main.c.22.o
+                0x0000000000000d5d        0x1 src/main.c.22.o
 
-.igot.plt       0x0000000000000d4c        0x0
- .igot.plt      0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.igot.plt       0x0000000000000d60        0x0
+ .igot.plt      0x0000000000000000        0x0 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.bss            0x0000000000000d4c       0x70
+.bss            0x0000000000000d60       0x70
  *(.bss)
  *(.bss.*)
  .bss.do_minute1
-                0x0000000000000d4c        0x1 src/main.c.22.o
- *fill*         0x0000000000000d4d        0x3 
+                0x0000000000000d60        0x1 src/main.c.22.o
+ *fill*         0x0000000000000d61        0x3 
  .bss.s_minute2_layer
-                0x0000000000000d50        0x4 src/main.c.22.o
- .bss.s_hour2_layer
-                0x0000000000000d54        0x4 src/main.c.22.o
- .bss.s_background_layer
-                0x0000000000000d58        0x4 src/main.c.22.o
- .bss.s_material_layer
-                0x0000000000000d5c        0x4 src/main.c.22.o
- .bss.s_minute1_parent
-                0x0000000000000d60        0x4 src/main.c.22.o
- .bss.s_minute1_layer
                 0x0000000000000d64        0x4 src/main.c.22.o
- .bss.s_material_bitmap
+ .bss.s_hour2_layer
                 0x0000000000000d68        0x4 src/main.c.22.o
- .bss.s_hour2_parent
+ .bss.s_background_layer
                 0x0000000000000d6c        0x4 src/main.c.22.o
- .bss.s_minute2_bitmap
+ .bss.s_material_layer
                 0x0000000000000d70        0x4 src/main.c.22.o
- .bss.do_reverse
-                0x0000000000000d74        0x1 src/main.c.22.o
- *fill*         0x0000000000000d75        0x3 
- .bss.s_main_window
+ .bss.s_minute1_parent
+                0x0000000000000d74        0x4 src/main.c.22.o
+ .bss.s_minute1_layer
                 0x0000000000000d78        0x4 src/main.c.22.o
- .bss.s_minute2_animation
+ .bss.s_material_bitmap
                 0x0000000000000d7c        0x4 src/main.c.22.o
- .bss.hour      0x0000000000000d80        0x1 src/main.c.22.o
- *fill*         0x0000000000000d81        0x3 
- .bss.s_hour2_bitmap
+ .bss.s_hour2_parent
+                0x0000000000000d80        0x4 src/main.c.22.o
+ .bss.s_minute2_bitmap
                 0x0000000000000d84        0x4 src/main.c.22.o
- .bss.s_hour1_bitmap
-                0x0000000000000d88        0x4 src/main.c.22.o
- .bss.s_hour2_animation
+ .bss.do_reverse
+                0x0000000000000d88        0x1 src/main.c.22.o
+ *fill*         0x0000000000000d89        0x3 
+ .bss.s_main_window
                 0x0000000000000d8c        0x4 src/main.c.22.o
- .bss.timer     0x0000000000000d90        0x4 src/main.c.22.o
- .bss.hour1     0x0000000000000d94        0x1 src/main.c.22.o
- .bss.running   0x0000000000000d95        0x1 src/main.c.22.o
- *fill*         0x0000000000000d96        0x2 
- .bss.s_hour1_layer
+ .bss.s_minute2_animation
+                0x0000000000000d90        0x4 src/main.c.22.o
+ .bss.hour      0x0000000000000d94        0x1 src/main.c.22.o
+ *fill*         0x0000000000000d95        0x3 
+ .bss.s_hour2_bitmap
                 0x0000000000000d98        0x4 src/main.c.22.o
- .bss.s_hour1_parent
+ .bss.s_hour1_bitmap
                 0x0000000000000d9c        0x4 src/main.c.22.o
- .bss.s_minute1_bitmap
+ .bss.s_hour2_animation
                 0x0000000000000da0        0x4 src/main.c.22.o
- .bss.s_minute2_parent
-                0x0000000000000da4        0x4 src/main.c.22.o
- .bss.do_minute2
-                0x0000000000000da8        0x1 src/main.c.22.o
- .bss.do_hour2  0x0000000000000da9        0x1 src/main.c.22.o
+ .bss.timer     0x0000000000000da4        0x4 src/main.c.22.o
+ .bss.hour1     0x0000000000000da8        0x1 src/main.c.22.o
+ .bss.running   0x0000000000000da9        0x1 src/main.c.22.o
  *fill*         0x0000000000000daa        0x2 
- .bss.s_hour1_animation
+ .bss.s_hour1_layer
                 0x0000000000000dac        0x4 src/main.c.22.o
- .bss.do_hour1  0x0000000000000db0        0x1 src/main.c.22.o
- *fill*         0x0000000000000db1        0x3 
- .bss.s_minute1_animation
+ .bss.s_hour1_parent
+                0x0000000000000db0        0x4 src/main.c.22.o
+ .bss.s_minute1_bitmap
                 0x0000000000000db4        0x4 src/main.c.22.o
- .bss.hour2     0x0000000000000db8        0x1 src/main.c.22.o
- .bss.again     0x0000000000000db9        0x1 src/main.c.22.o
- .bss.minute1   0x0000000000000dba        0x1 src/main.c.22.o
- .bss.minute2   0x0000000000000dbb        0x1 src/main.c.22.o
+ .bss.s_minute2_parent
+                0x0000000000000db8        0x4 src/main.c.22.o
+ .bss.do_minute2
+                0x0000000000000dbc        0x1 src/main.c.22.o
+ .bss.do_hour2  0x0000000000000dbd        0x1 src/main.c.22.o
+ *fill*         0x0000000000000dbe        0x2 
+ .bss.s_hour1_animation
+                0x0000000000000dc0        0x4 src/main.c.22.o
+ .bss.do_hour1  0x0000000000000dc4        0x1 src/main.c.22.o
+ *fill*         0x0000000000000dc5        0x3 
+ .bss.s_minute1_animation
+                0x0000000000000dc8        0x4 src/main.c.22.o
+ .bss.hour2     0x0000000000000dcc        0x1 src/main.c.22.o
+ .bss.again     0x0000000000000dcd        0x1 src/main.c.22.o
+ .bss.minute1   0x0000000000000dce        0x1 src/main.c.22.o
+ .bss.minute2   0x0000000000000dcf        0x1 src/main.c.22.o
 
 DISCARD
  libc.a(*)
@@ -1263,37 +1267,37 @@ OUTPUT(/Users/James/Development Workspaces/Pebble/Squared/build/basalt/pebble-ap
 .ARM.attributes
                 0x0000000000000000       0x27
  .ARM.attributes
-                0x0000000000000000       0x19 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+                0x0000000000000000       0x19 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
  .ARM.attributes
-                0x0000000000000019       0x29 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000019       0x29 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .ARM.attributes
                 0x0000000000000042       0x33 src/main.c.22.o
  .ARM.attributes
                 0x0000000000000075       0x33 basalt/appinfo.auto.c.22.o
  .ARM.attributes
-                0x00000000000000a8       0x21 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt/lib/libpebble.a(tmpTNRbtApebble.o)
+                0x00000000000000a8       0x21 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt/lib/libpebble.a(tmpxXWxespebble.o)
  .ARM.attributes
-                0x00000000000000c9       0x29 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+                0x00000000000000c9       0x29 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
  .ARM.attributes
-                0x00000000000000f2       0x19 /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+                0x00000000000000f2       0x19 /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
 
 .comment        0x0000000000000000       0x4e
- .comment       0x0000000000000000       0x4e /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .comment       0x0000000000000000       0x4e /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
                                          0x4f (size before relaxing)
  .comment       0x0000000000000000       0x4f src/main.c.22.o
  .comment       0x0000000000000000       0x4f basalt/appinfo.auto.c.22.o
- .comment       0x0000000000000000       0x4f /Users/James/pebble-dev/PebbleSDK-3.0-beta10/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .comment       0x0000000000000000       0x4f /Users/James/pebble-dev/PebbleSDK-3.0-beta12/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000     0x1962
- .debug_info    0x0000000000000000     0x15e5 src/main.c.22.o
- .debug_info    0x00000000000015e5      0x37d basalt/appinfo.auto.c.22.o
+.debug_info     0x0000000000000000     0x1967
+ .debug_info    0x0000000000000000     0x15ea src/main.c.22.o
+ .debug_info    0x00000000000015ea      0x37d basalt/appinfo.auto.c.22.o
 
-.debug_abbrev   0x0000000000000000      0x3a7
- .debug_abbrev  0x0000000000000000      0x309 src/main.c.22.o
- .debug_abbrev  0x0000000000000309       0x9e basalt/appinfo.auto.c.22.o
+.debug_abbrev   0x0000000000000000      0x3a4
+ .debug_abbrev  0x0000000000000000      0x306 src/main.c.22.o
+ .debug_abbrev  0x0000000000000306       0x9e basalt/appinfo.auto.c.22.o
 
-.debug_loc      0x0000000000000000      0x30c
- .debug_loc     0x0000000000000000      0x30c src/main.c.22.o
+.debug_loc      0x0000000000000000      0x32c
+ .debug_loc     0x0000000000000000      0x32c src/main.c.22.o
 
 .debug_aranges  0x0000000000000000       0x88
  .debug_aranges
@@ -1304,15 +1308,15 @@ OUTPUT(/Users/James/Development Workspaces/Pebble/Squared/build/basalt/pebble-ap
 .debug_ranges   0x0000000000000000       0x60
  .debug_ranges  0x0000000000000000       0x60 src/main.c.22.o
 
-.debug_line     0x0000000000000000      0x5a5
- .debug_line    0x0000000000000000      0x466 src/main.c.22.o
- .debug_line    0x0000000000000466      0x13f basalt/appinfo.auto.c.22.o
+.debug_line     0x0000000000000000      0x5a9
+ .debug_line    0x0000000000000000      0x46a src/main.c.22.o
+ .debug_line    0x000000000000046a      0x13f basalt/appinfo.auto.c.22.o
 
-.debug_str      0x0000000000000000      0xd7a
- .debug_str     0x0000000000000000      0xb50 src/main.c.22.o
-                                        0xc2c (size before relaxing)
- .debug_str     0x0000000000000b50      0x22a basalt/appinfo.auto.c.22.o
+.debug_str      0x0000000000000000      0xd87
+ .debug_str     0x0000000000000000      0xb5d src/main.c.22.o
+                                        0xc39 (size before relaxing)
+ .debug_str     0x0000000000000b5d      0x22a basalt/appinfo.auto.c.22.o
                                         0x419 (size before relaxing)
 
-.debug_frame    0x0000000000000000      0x12c
- .debug_frame   0x0000000000000000      0x12c src/main.c.22.o
+.debug_frame    0x0000000000000000      0x134
+ .debug_frame   0x0000000000000000      0x134 src/main.c.22.o

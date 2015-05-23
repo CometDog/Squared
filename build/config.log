@@ -1,6 +1,6 @@
-# project  configured on Wed May 20 21:45:11 2015 by
+# project  configured on Sat May 23 09:23:37 2015 by
 # waf 1.7.11 (abi 98, python 20709f0 on darwin)
-# using /Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/waf configure build
+# using /Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/waf configure build
 #
 ----------------------------------------
 Setting top to
@@ -10,7 +10,7 @@ Setting out to
 /Users/James/Development Workspaces/Pebble/Squared/build
 ----------------------------------------
 Found Pebble SDK for basalt in:
-/Users/James/pebble-dev/PebbleSDK-3.0-beta10/Pebble/basalt
+/Users/James/pebble-dev/PebbleSDK-3.0-beta12/Pebble/basalt
 ----------------------------------------
 Checking for program gcc,cc
 arm-none-eabi-gcc

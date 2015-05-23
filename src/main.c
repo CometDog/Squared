@@ -155,7 +155,7 @@ static void update_time() {
     hour = t->tm_hour % 12;
   }
   
-  if (clock_is_24h_style() == false && t->tm_hour == 12) {
+  if (clock_is_24h_style() == false && hour == 12) {
     hour1 = 1;
     hour2 = 2;
   }
