@@ -205,7 +205,8 @@ static void timer_callback(void *data) {
 
 static void tap_handler(AccelAxisType axis, int32_t direction) {
   animations = true;
-  app_timer_reschedule(timer, 180 * 1000);
+  app_timer_cancel(timer);
+  timer = app_timer_register(180 * 1000, timer_callback, NULL);
 }
 
 static void bt_handler(bool connected) {
