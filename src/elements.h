@@ -16,6 +16,8 @@ typedef struct
   BitmapLayer *bitmap_layer;
   GBitmap *bitmap;
   PropertyAnimation *animation;
+  bool out_of_frame;
+  int position;
 } DigitLayer;
 
 static Window *s_main_window;
@@ -32,15 +34,7 @@ static int8_t hour2;
 static int8_t minute1;
 static int8_t minute2;
 
-static bool first_run = false;
-static bool do_hour1;
-static bool do_hour2;
-static bool do_minute1;
-static bool do_minute2;
-static bool do_reverse;
-static bool again = false;
-static bool running = false;
-static bool animations = true;
+static bool idle = true;
 
 const int DIGIT_RESOURCE_IDS[] = {
     RESOURCE_ID_T0,
@@ -54,5 +48,5 @@ const int DIGIT_RESOURCE_IDS[] = {
     RESOURCE_ID_T8,
     RESOURCE_ID_T9};
 
-static void do_animation();
+static void do_animation(DigitLayer *digit_layer);
 static void update_bg(Layer *layer, GContext *ctx);

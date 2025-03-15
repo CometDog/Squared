@@ -9,21 +9,33 @@ Squared
 #include "elements.h"
 
 /**
- * Resets state for a new animation
+ * Handles the completion of an animation
  * @param animation Pointer to the Animation that stopped
  * @param finished Whether the animation finished successfully
- * @param context Pointer to the context data. Unused
+ * @param context Pointer to the context data. Assumed to be a DigitLayer struct
  */
 static void anim_stopped_handler(Animation *animation, bool finished, void *context)
 {
   if (finished)
   {
-    running = false;
-    do_reverse = false;
+    DigitLayer *digit_layer = (DigitLayer *)context;
     layer_mark_dirty(s_background_layer);
-    do_animation();
-    do_hour1 = do_hour2 = do_minute1 = do_minute2 = false;
+    if (digit_layer->out_of_frame)
+    {
+      do_animation(digit_layer);
+    }
   }
+}
+
+/**
+ * Handles the start of an animation
+ * @param animation Pointer to the Animation that stopped
+ * @param context Pointer to the context data. Assumed to be a DigitLayer struct
+ */
+static void anim_started_handler(Animation *animation, void *context)
+{
+  DigitLayer *digit_layer = (DigitLayer *)context;
+  digit_layer->out_of_frame = !digit_layer->out_of_frame;
 }
 
 /**
@@ -34,16 +46,12 @@ static void anim_stopped_handler(Animation *animation, bool finished, void *cont
  */
 static void animate_digit(DigitLayer *digit_layer, GRect start, GRect finish)
 {
-  // Select direction based on do_reverse flag
-  GRect from = do_reverse ? finish : start;
-  GRect to = do_reverse ? start : finish;
-
   // Create and configure animation
   digit_layer->animation = property_animation_create_layer_frame(
-      digit_layer->parent_layer, &from, &to);
+      digit_layer->parent_layer, &start, &finish);
   Animation *anim = (Animation *)digit_layer->animation;
 
-  animation_set_handlers(anim, (AnimationHandlers){.stopped = anim_stopped_handler}, NULL);
+  animation_set_handlers(anim, (AnimationHandlers){.started = anim_started_handler, .stopped = anim_stopped_handler}, digit_layer);
 
   // Set common animation properties
   animation_set_duration(anim, ANIM_DURATION);
@@ -54,38 +62,36 @@ static void animate_digit(DigitLayer *digit_layer, GRect start, GRect finish)
 
 /**
  * Manages the animation sequence for all digits
+ * @param digit_layer The digit layer to animate
  */
-static void do_animation()
+static void do_animation(DigitLayer *digit_layer)
 {
-  running = do_reverse;
-
   // Define start and end positions
   const struct
   {
-    GRect start;
-    GRect finish;
+    GRect out_of_frame;
+    GRect in_frame;
   } positions[] = {
-      {GRect(-144, 0, BOX_X, BOX_Y), GRect(0, 0, BOX_X, BOX_Y)},   // hour1
-      {GRect(72, -168, BOX_X, BOX_Y), GRect(72, 0, BOX_X, BOX_Y)}, // hour2
-      {GRect(0, 252, BOX_X, BOX_Y), GRect(0, 84, BOX_X, BOX_Y)},   // minute1
-      {GRect(216, 84, BOX_X, BOX_Y), GRect(72, 84, BOX_X, BOX_Y)}  // minute2
+      {GRect(-144, 0, BOX_X, BOX_Y), GRect(0, 0, BOX_X, BOX_Y)},   // top-left
+      {GRect(72, -168, BOX_X, BOX_Y), GRect(72, 0, BOX_X, BOX_Y)}, // top-right
+      {GRect(0, 252, BOX_X, BOX_Y), GRect(0, 84, BOX_X, BOX_Y)},   // bottom-left
+      {GRect(216, 84, BOX_X, BOX_Y), GRect(72, 84, BOX_X, BOX_Y)}  // bottom-right
   };
 
-  // Animate digits when necessary
-  if (do_hour1)
-    animate_digit(s_hour1, positions[0].start, positions[0].finish);
-  if (do_hour2)
-    animate_digit(s_hour2, positions[1].start, positions[1].finish);
-  if (do_minute1)
-    animate_digit(s_minute1, positions[2].start, positions[2].finish);
-  if (do_minute2)
-    animate_digit(s_minute2, positions[3].start, positions[3].finish);
+  // Animate digit layer
+  animate_digit(digit_layer,
+                digit_layer->out_of_frame // Start
+                    ? positions[digit_layer->position].out_of_frame
+                    : positions[digit_layer->position].in_frame,
+                digit_layer->out_of_frame // Finish
+                    ? positions[digit_layer->position].in_frame
+                    : positions[digit_layer->position].out_of_frame);
 }
 
 static void update_bg(Layer *layer, GContext *ctx)
 {
-
-  if (running == false)
+  bool any_out_of_frame = s_hour1->out_of_frame || s_hour2->out_of_frame || s_minute1->out_of_frame || s_minute2->out_of_frame;
+  if (!any_out_of_frame)
   {
     gbitmap_destroy_safe(s_hour1->bitmap);
     gbitmap_destroy_safe(s_hour2->bitmap);
@@ -134,55 +140,41 @@ static void update_time()
   minute1 = t->tm_min / 10;
   minute2 = t->tm_min - (minute1 * 10);
 
-  if (first_run)
+  if (idle)
   {
-    do_minute2 = true;
+    layer_mark_dirty(s_background_layer);
+    layer_set_update_proc(s_background_layer, update_bg);
+  }
+  else
+  {
+    do_animation(s_minute2);
     if (minute2 == 0)
     {
-      do_minute1 = true;
-
+      do_animation(s_minute1);
       if (minute1 == 0)
       {
-        do_hour2 = true;
-
+        do_animation(s_hour2);
         if (hour2 == 0)
         {
-          do_hour1 = true;
-
+          do_animation(s_hour1);
           if (clock_is_24h_style() == false && hour2 == 1 && hour1 != 1)
           {
-            do_hour1 = true;
+            do_animation(s_hour1);
           }
         }
       }
     }
-    do_reverse = true;
-    if (animations == true)
-    {
-      do_animation();
-    }
-    else
-    {
-      layer_mark_dirty(s_background_layer);
-      layer_set_update_proc(s_background_layer, update_bg);
-    }
-  }
-  else if (!first_run)
-  {
-    first_run = true;
-    layer_mark_dirty(s_background_layer);
-    layer_set_update_proc(s_background_layer, update_bg);
   }
 }
 
 static void timer_callback(void *data)
 {
-  animations = false;
+  idle = true;
 }
 
 static void tap_handler(AccelAxisType axis, int32_t direction)
 {
-  animations = true;
+  idle = false;
   app_timer_cancel(timer);
   timer = app_timer_register(180 * 1000, timer_callback, NULL);
 }
@@ -215,6 +207,16 @@ static void main_window_load(Window *window)
   s_minute1 = (DigitLayer *)malloc(sizeof(DigitLayer));
   s_minute2 = (DigitLayer *)malloc(sizeof(DigitLayer));
 
+  s_hour1->position = 0;
+  s_hour2->position = 1;
+  s_minute1->position = 2;
+  s_minute2->position = 3;
+
+  s_hour1->out_of_frame = true;
+  s_hour2->out_of_frame = true;
+  s_minute1->out_of_frame = true;
+  s_minute2->out_of_frame = true;
+
   s_hour1->parent_layer = layer_create(GRect(-144, 0, BOX_X, BOX_Y));
   s_hour2->parent_layer = layer_create(GRect(72, -168, BOX_X, BOX_Y));
   s_minute1->parent_layer = layer_create(GRect(0, 252, BOX_X, BOX_Y));
@@ -243,7 +245,10 @@ static void main_window_load(Window *window)
   bitmap_layer_add_to_layer(s_minute1->bitmap_layer, s_minute1->parent_layer);
   bitmap_layer_add_to_layer(s_minute2->bitmap_layer, s_minute2->parent_layer);
 
-  update_time();
+  do_animation(s_hour1);
+  do_animation(s_hour2);
+  do_animation(s_minute1);
+  do_animation(s_minute2);
 }
 
 static void main_window_unload(Window *window)
@@ -279,16 +284,6 @@ static void init()
   bluetooth_connection_service_subscribe(bt_handler);
 
   timer = app_timer_register(180 * 1000, timer_callback, NULL);
-
-  do_hour1 = true;
-  do_hour2 = true;
-  do_minute1 = true;
-  do_minute2 = true;
-  do_animation();
-  do_hour1 = false;
-  do_hour2 = false;
-  do_minute1 = false;
-  do_minute2 = false;
 }
 
 static void deinit()
