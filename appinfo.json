@@ -55,7 +55,7 @@
                 "type": "png"
             },
             {
-                "file": "images/T_9.png",
+                "file": "images/t_9.png",
                 "name": "T9",
                 "type": "png"
             },
@@ -74,7 +74,9 @@
     "sdkVersion": "3",
     "shortName": "Squared",
     "targetPlatforms": [
-        "basalt"
+        "aplite",
+        "basalt",
+        "diorite"
     ],
     "uuid": "3774eb9a-3e5f-4b29-8860-3c4c8c1656bd",
     "versionCode": "2",
