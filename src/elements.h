@@ -10,7 +10,8 @@ Squared
 #define ANIM_DURATION 500
 #define ANIM_DELAY 300
 
-typedef struct {
+typedef struct
+{
   Layer *parent_layer;
   BitmapLayer *bitmap_layer;
   GBitmap *bitmap;
@@ -21,7 +22,7 @@ static Window *s_main_window;
 static Layer *s_background_layer;
 static DigitLayer *s_hour1, *s_hour2, *s_minute1, *s_minute2;
 static BitmapLayer *s_material_layer;
-static GBitmap *s_material_bitmap; 
+static GBitmap *s_material_bitmap;
 
 static AppTimer *timer = NULL;
 
@@ -42,17 +43,16 @@ static bool running = false;
 static bool animations = true;
 
 const int DIGIT_RESOURCE_IDS[] = {
-  RESOURCE_ID_T0,
-  RESOURCE_ID_T1,
-  RESOURCE_ID_T2,
-  RESOURCE_ID_T3,
-  RESOURCE_ID_T4,
-  RESOURCE_ID_T5,
-  RESOURCE_ID_T6,
-  RESOURCE_ID_T7,
-  RESOURCE_ID_T8,
-  RESOURCE_ID_T9
-};
+    RESOURCE_ID_T0,
+    RESOURCE_ID_T1,
+    RESOURCE_ID_T2,
+    RESOURCE_ID_T3,
+    RESOURCE_ID_T4,
+    RESOURCE_ID_T5,
+    RESOURCE_ID_T6,
+    RESOURCE_ID_T7,
+    RESOURCE_ID_T8,
+    RESOURCE_ID_T9};
 
 static void do_animation();
 static void update_bg(Layer *layer, GContext *ctx);
