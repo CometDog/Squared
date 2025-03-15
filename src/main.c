@@ -8,114 +8,78 @@ Squared
 #include "libs/pebble-assist.h"
 #include "elements.h"
 
+/**
+ * Resets state for a new animation
+ * @param animation Pointer to the Animation that stopped
+ * @param finished Whether the animation finished successfully
+ * @param context Pointer to the context data. Unused
+ */
 static void anim_stopped_handler(Animation *animation, bool finished, void *context)
 {
-  if (finished && again == true)
+  if (finished)
   {
     running = false;
-    again = false;
     do_reverse = false;
     layer_mark_dirty(s_background_layer);
     do_animation();
-    do_hour1 = false;
-    do_hour2 = false;
-    do_minute1 = false;
-    do_minute2 = false;
+    do_hour1 = do_hour2 = do_minute1 = do_minute2 = false;
   }
 }
 
+/**
+ * Creates and schedules an animation for a digit layer
+ * @param digit_layer The digit layer to animate
+ * @param start Starting position
+ * @param finish Ending position
+ */
+static void animate_digit(DigitLayer *digit_layer, GRect start, GRect finish)
+{
+  // Select direction based on do_reverse flag
+  GRect from = do_reverse ? finish : start;
+  GRect to = do_reverse ? start : finish;
+
+  // Create and configure animation
+  digit_layer->animation = property_animation_create_layer_frame(
+      digit_layer->parent_layer, &from, &to);
+  Animation *anim = (Animation *)digit_layer->animation;
+
+  animation_set_handlers(anim, (AnimationHandlers){.stopped = anim_stopped_handler}, NULL);
+
+  // Set common animation properties
+  animation_set_duration(anim, ANIM_DURATION);
+  animation_set_delay(anim, ANIM_DELAY);
+  animation_set_curve(anim, AnimationCurveEaseInOut);
+  animation_schedule(anim);
+}
+
+/**
+ * Manages the animation sequence for all digits
+ */
 static void do_animation()
 {
-  if (do_reverse)
-  {
-    running = true;
-  }
+  running = do_reverse;
 
-  GRect hour1_start, hour1_finish;
-  GRect hour2_start, hour2_finish;
-  GRect minute1_start, minute1_finish;
-  GRect minute2_start, minute2_finish;
-
-  hour1_start = GRect(-144, 0, BOX_X, BOX_Y);
-  hour1_finish = GRect(0, 0, BOX_X, BOX_Y);
-
-  hour2_start = GRect(72, -168, BOX_X, BOX_Y);
-  hour2_finish = GRect(72, 0, BOX_X, BOX_Y);
-
-  minute1_start = GRect(0, 252, BOX_X, BOX_Y);
-  minute1_finish = GRect(0, 84, BOX_X, BOX_Y);
-
-  minute2_start = GRect(216, 84, BOX_X, BOX_Y);
-  minute2_finish = GRect(72, 84, BOX_X, BOX_Y);
-
-  if (do_hour1 == true)
+  // Define start and end positions
+  const struct
   {
-    if (do_reverse == true)
-    {
-      s_hour1->animation = property_animation_create_layer_frame(s_hour1->parent_layer, &hour1_finish, &hour1_start);
-    }
-    else
-    {
-      s_hour1->animation = property_animation_create_layer_frame(s_hour1->parent_layer, &hour1_start, &hour1_finish);
-    }
-    animation_set_duration((Animation *)s_hour1->animation, ANIM_DURATION);
-    animation_set_delay((Animation *)s_hour1->animation, ANIM_DELAY);
-    animation_set_curve((Animation *)s_hour1->animation, AnimationCurveEaseInOut);
-    animation_set_handlers((Animation *)s_hour1->animation, (AnimationHandlers){.stopped = anim_stopped_handler}, NULL);
-    animation_schedule((Animation *)s_hour1->animation);
-  }
-  if (do_hour2 == true)
-  {
-    if (do_reverse == true)
-    {
-      s_hour2->animation = property_animation_create_layer_frame(s_hour2->parent_layer, &hour2_finish, &hour2_start);
-    }
-    else
-    {
-      s_hour2->animation = property_animation_create_layer_frame(s_hour2->parent_layer, &hour2_start, &hour2_finish);
-    }
-    animation_set_duration((Animation *)s_hour2->animation, ANIM_DURATION);
-    animation_set_delay((Animation *)s_hour2->animation, ANIM_DELAY);
-    animation_set_curve((Animation *)s_hour2->animation, AnimationCurveEaseInOut);
-    animation_set_handlers((Animation *)s_hour2->animation, (AnimationHandlers){.stopped = anim_stopped_handler}, NULL);
-    animation_schedule((Animation *)s_hour2->animation);
-  }
-  if (do_minute1 == true)
-  {
-    if (do_reverse == true)
-    {
-      s_minute1->animation = property_animation_create_layer_frame(s_minute1->parent_layer, &minute1_finish, &minute1_start);
-    }
-    else
-    {
-      s_minute1->animation = property_animation_create_layer_frame(s_minute1->parent_layer, &minute1_start, &minute1_finish);
-    }
-    animation_set_duration((Animation *)s_minute1->animation, ANIM_DURATION);
-    animation_set_delay((Animation *)s_minute1->animation, ANIM_DELAY);
-    animation_set_curve((Animation *)s_minute1->animation, AnimationCurveEaseInOut);
-    animation_set_handlers((Animation *)s_minute1->animation, (AnimationHandlers){.stopped = anim_stopped_handler}, NULL);
-    animation_schedule((Animation *)s_minute1->animation);
-  }
-  if (do_minute2 == true)
-  {
-    if (do_reverse == true)
-    {
-      s_minute2->animation = property_animation_create_layer_frame(s_minute2->parent_layer, &minute2_finish, &minute2_start);
-    }
-    else
-    {
-      s_minute2->animation = property_animation_create_layer_frame(s_minute2->parent_layer, &minute2_start, &minute2_finish);
-    }
-    animation_set_duration((Animation *)s_minute2->animation, ANIM_DURATION);
-    animation_set_delay((Animation *)s_minute2->animation, ANIM_DELAY);
-    animation_set_curve((Animation *)s_minute2->animation, AnimationCurveEaseInOut);
-    animation_set_handlers((Animation *)s_minute2->animation, (AnimationHandlers){.stopped = anim_stopped_handler}, NULL);
-    animation_schedule((Animation *)s_minute2->animation);
-  }
-  if (do_reverse == true)
-  {
-    again = true;
-  }
+    GRect start;
+    GRect finish;
+  } positions[] = {
+      {GRect(-144, 0, BOX_X, BOX_Y), GRect(0, 0, BOX_X, BOX_Y)},   // hour1
+      {GRect(72, -168, BOX_X, BOX_Y), GRect(72, 0, BOX_X, BOX_Y)}, // hour2
+      {GRect(0, 252, BOX_X, BOX_Y), GRect(0, 84, BOX_X, BOX_Y)},   // minute1
+      {GRect(216, 84, BOX_X, BOX_Y), GRect(72, 84, BOX_X, BOX_Y)}  // minute2
+  };
+
+  // Animate digits when necessary
+  if (do_hour1)
+    animate_digit(s_hour1, positions[0].start, positions[0].finish);
+  if (do_hour2)
+    animate_digit(s_hour2, positions[1].start, positions[1].finish);
+  if (do_minute1)
+    animate_digit(s_minute1, positions[2].start, positions[2].finish);
+  if (do_minute2)
+    animate_digit(s_minute2, positions[3].start, positions[3].finish);
 }
 
 static void update_bg(Layer *layer, GContext *ctx)
