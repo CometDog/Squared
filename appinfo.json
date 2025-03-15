@@ -15,53 +15,53 @@
                 "file": "images/icon.png"
             },
             {
-                "file": "images/one.png",
-                "name": "ONE",
+                "file": "images/t_1.png",
+                "name": "T1",
                 "type": "png"
             },
             {
-                "file": "images/two.png",
-                "name": "TWO",
+                "file": "images/t_2.png",
+                "name": "T2",
                 "type": "png"
             },
             {
-                "file": "images/three.png",
-                "name": "THREE",
+                "file": "images/t_3.png",
+                "name": "T3",
                 "type": "png"
             },
             {
-                "file": "images/four.png",
-                "name": "FOUR",
+                "file": "images/t_4.png",
+                "name": "T4",
                 "type": "png"
             },
             {
-                "file": "images/five.png",
-                "name": "FIVE",
+                "file": "images/t_5.png",
+                "name": "T5",
                 "type": "png"
             },
             {
-                "file": "images/six.png",
-                "name": "SIX",
+                "file": "images/t_6.png",
+                "name": "T6",
                 "type": "png"
             },
             {
-                "file": "images/seven.png",
-                "name": "SEVEN",
+                "file": "images/t_7.png",
+                "name": "T7",
                 "type": "png"
             },
             {
-                "file": "images/eight.png",
-                "name": "EIGHT",
+                "file": "images/t_8.png",
+                "name": "T8",
                 "type": "png"
             },
             {
-                "file": "images/nine.png",
-                "name": "NINE",
+                "file": "images/T_9.png",
+                "name": "T9",
                 "type": "png"
             },
             {
-                "file": "images/zero.png",
-                "name": "ZERO",
+                "file": "images/t_0.png",
+                "name": "T0",
                 "type": "png"
             },
             {
