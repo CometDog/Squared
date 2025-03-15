@@ -1,5 +1,5 @@
 
-    #
+#
 # This file is the default set of rules to compile a Pebble project.
 #
 # Feel free to customize this to your needs.
@@ -59,4 +59,3 @@ def build(ctx):
 
     ctx.set_group('bundle')
     ctx.pbl_bundle(binaries=binaries, js='pebble-js-app.js' if has_js else [])
-    
