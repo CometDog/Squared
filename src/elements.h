@@ -1,7 +1,7 @@
 /*
 Squared
-    Copyright (C) 2015 James Downs
-    james.j.downs@icloud.com
+  Copyright (C) 2015 James Downs
+  james.j.downs@icloud.com
 */
 
 #define BOX_X 72
@@ -10,12 +10,18 @@ Squared
 #define ANIM_DURATION 500
 #define ANIM_DELAY 300
 
+typedef struct {
+  Layer *parent_layer;
+  BitmapLayer *bitmap_layer;
+  GBitmap *bitmap;
+  PropertyAnimation *animation;
+} DigitLayer;
+
 static Window *s_main_window;
 static Layer *s_background_layer;
-static Layer *s_hour1_parent, *s_hour2_parent, *s_minute1_parent, *s_minute2_parent;
-static BitmapLayer *s_hour1_layer, *s_hour2_layer, *s_minute1_layer, *s_minute2_layer, *s_material_layer;
-static GBitmap *s_hour1_bitmap, *s_hour2_bitmap, *s_minute1_bitmap, *s_minute2_bitmap, *s_material_bitmap; 
-static PropertyAnimation *s_hour1_animation, *s_hour2_animation, *s_minute1_animation, *s_minute2_animation;
+static DigitLayer *s_hour1, *s_hour2, *s_minute1, *s_minute2;
+static BitmapLayer *s_material_layer;
+static GBitmap *s_material_bitmap; 
 
 static AppTimer *timer = NULL;
 
@@ -25,8 +31,7 @@ static int8_t hour2;
 static int8_t minute1;
 static int8_t minute2;
 
-static int8_t first_run = 1;
-  
+static bool first_run = false;
 static bool do_hour1;
 static bool do_hour2;
 static bool do_minute1;
@@ -36,7 +41,7 @@ static bool again = false;
 static bool running = false;
 static bool animations = true;
 
-const int TIME_RESOURCE_IDS[] = {
+const int DIGIT_RESOURCE_IDS[] = {
   RESOURCE_ID_T0,
   RESOURCE_ID_T1,
   RESOURCE_ID_T2,

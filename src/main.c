@@ -58,63 +58,63 @@ static void do_animation() {
 
   if (do_hour1 == true) {
     if (do_reverse == true) {
-      s_hour1_animation = property_animation_create_layer_frame(s_hour1_parent, &hour1_finish, &hour1_start);
+      s_hour1->animation = property_animation_create_layer_frame(s_hour1->parent_layer, &hour1_finish, &hour1_start);
     }
     else {
-      s_hour1_animation = property_animation_create_layer_frame(s_hour1_parent, &hour1_start, &hour1_finish);
+      s_hour1->animation = property_animation_create_layer_frame(s_hour1->parent_layer, &hour1_start, &hour1_finish);
     }
-    animation_set_duration((Animation*)s_hour1_animation, ANIM_DURATION);
-    animation_set_delay((Animation*)s_hour1_animation, ANIM_DELAY);
-    animation_set_curve((Animation*)s_hour1_animation, AnimationCurveEaseInOut);
-    animation_set_handlers((Animation*)s_hour1_animation, (AnimationHandlers) {
+    animation_set_duration((Animation*)s_hour1->animation, ANIM_DURATION);
+    animation_set_delay((Animation*)s_hour1->animation, ANIM_DELAY);
+    animation_set_curve((Animation*)s_hour1->animation, AnimationCurveEaseInOut);
+    animation_set_handlers((Animation*)s_hour1->animation, (AnimationHandlers) {
     .stopped = anim_stopped_handler
   }, NULL);
-    animation_schedule((Animation*)s_hour1_animation);
+    animation_schedule((Animation*)s_hour1->animation);
   }
   if (do_hour2 == true) {
     if (do_reverse == true) {
-      s_hour2_animation = property_animation_create_layer_frame(s_hour2_parent, &hour2_finish, &hour2_start);
+      s_hour2->animation = property_animation_create_layer_frame(s_hour2->parent_layer, &hour2_finish, &hour2_start);
     }
     else {
-      s_hour2_animation = property_animation_create_layer_frame(s_hour2_parent, &hour2_start, &hour2_finish);
+      s_hour2->animation = property_animation_create_layer_frame(s_hour2->parent_layer, &hour2_start, &hour2_finish);
     }
-    animation_set_duration((Animation*)s_hour2_animation, ANIM_DURATION);
-    animation_set_delay((Animation*)s_hour2_animation, ANIM_DELAY);
-    animation_set_curve((Animation*)s_hour2_animation, AnimationCurveEaseInOut);
-    animation_set_handlers((Animation*)s_hour2_animation, (AnimationHandlers) {
+    animation_set_duration((Animation*)s_hour2->animation, ANIM_DURATION);
+    animation_set_delay((Animation*)s_hour2->animation, ANIM_DELAY);
+    animation_set_curve((Animation*)s_hour2->animation, AnimationCurveEaseInOut);
+    animation_set_handlers((Animation*)s_hour2->animation, (AnimationHandlers) {
     .stopped = anim_stopped_handler
   }, NULL);
-    animation_schedule((Animation*)s_hour2_animation);
+    animation_schedule((Animation*)s_hour2->animation);
   }
   if (do_minute1 == true) {
     if (do_reverse == true) {
-      s_minute1_animation = property_animation_create_layer_frame(s_minute1_parent, &minute1_finish, &minute1_start);
+      s_minute1->animation = property_animation_create_layer_frame(s_minute1->parent_layer, &minute1_finish, &minute1_start);
     }
     else {
-      s_minute1_animation = property_animation_create_layer_frame(s_minute1_parent, &minute1_start, &minute1_finish);
+      s_minute1->animation = property_animation_create_layer_frame(s_minute1->parent_layer, &minute1_start, &minute1_finish);
     }
-    animation_set_duration((Animation*)s_minute1_animation, ANIM_DURATION);
-    animation_set_delay((Animation*)s_minute1_animation, ANIM_DELAY);
-    animation_set_curve((Animation*)s_minute1_animation, AnimationCurveEaseInOut);
-    animation_set_handlers((Animation*)s_minute1_animation, (AnimationHandlers) {
+    animation_set_duration((Animation*)s_minute1->animation, ANIM_DURATION);
+    animation_set_delay((Animation*)s_minute1->animation, ANIM_DELAY);
+    animation_set_curve((Animation*)s_minute1->animation, AnimationCurveEaseInOut);
+    animation_set_handlers((Animation*)s_minute1->animation, (AnimationHandlers) {
     .stopped = anim_stopped_handler
   }, NULL);
-    animation_schedule((Animation*)s_minute1_animation);
+    animation_schedule((Animation*)s_minute1->animation);
   }
   if (do_minute2 == true) {
     if (do_reverse == true) {
-      s_minute2_animation = property_animation_create_layer_frame(s_minute2_parent, &minute2_finish, &minute2_start);
+      s_minute2->animation = property_animation_create_layer_frame(s_minute2->parent_layer, &minute2_finish, &minute2_start);
     }
     else {
-      s_minute2_animation = property_animation_create_layer_frame(s_minute2_parent, &minute2_start, &minute2_finish);
+      s_minute2->animation = property_animation_create_layer_frame(s_minute2->parent_layer, &minute2_start, &minute2_finish);
     }
-    animation_set_duration((Animation*)s_minute2_animation, ANIM_DURATION);
-    animation_set_delay((Animation*)s_minute2_animation, ANIM_DELAY);
-    animation_set_curve((Animation*)s_minute2_animation, AnimationCurveEaseInOut);
-    animation_set_handlers((Animation*)s_minute2_animation, (AnimationHandlers) {
+    animation_set_duration((Animation*)s_minute2->animation, ANIM_DURATION);
+    animation_set_delay((Animation*)s_minute2->animation, ANIM_DELAY);
+    animation_set_curve((Animation*)s_minute2->animation, AnimationCurveEaseInOut);
+    animation_set_handlers((Animation*)s_minute2->animation, (AnimationHandlers) {
     .stopped = anim_stopped_handler
   }, NULL);
-    animation_schedule((Animation*)s_minute2_animation);
+    animation_schedule((Animation*)s_minute2->animation);
   }
   if (do_reverse == true) {
     again = true;
@@ -124,23 +124,23 @@ static void do_animation() {
 static void update_bg(Layer *layer, GContext *ctx) {
   
   if (running == false) {
-    gbitmap_destroy_safe(s_hour1_bitmap);
-    gbitmap_destroy_safe(s_hour2_bitmap);
-    gbitmap_destroy_safe(s_minute1_bitmap);
-    gbitmap_destroy_safe(s_minute2_bitmap);
+    gbitmap_destroy_safe(s_hour1->bitmap);
+    gbitmap_destroy_safe(s_hour2->bitmap);
+    gbitmap_destroy_safe(s_minute1->bitmap);
+    gbitmap_destroy_safe(s_minute2->bitmap);
   
     GRect bounds = layer_get_bounds(layer);
     GPoint center = grect_center_point(&bounds);
   
-    s_hour1_bitmap = gbitmap_create_with_resource(TIME_RESOURCE_IDS[hour1]);
-    s_hour2_bitmap = gbitmap_create_with_resource(TIME_RESOURCE_IDS[hour2]);
-    s_minute1_bitmap = gbitmap_create_with_resource(TIME_RESOURCE_IDS[minute1]);
-    s_minute2_bitmap = gbitmap_create_with_resource(TIME_RESOURCE_IDS[minute2]);
+    s_hour1->bitmap = gbitmap_create_with_resource(DIGIT_RESOURCE_IDS[hour1]);
+    s_hour2->bitmap = gbitmap_create_with_resource(DIGIT_RESOURCE_IDS[hour2]);
+    s_minute1->bitmap = gbitmap_create_with_resource(DIGIT_RESOURCE_IDS[minute1]);
+    s_minute2->bitmap = gbitmap_create_with_resource(DIGIT_RESOURCE_IDS[minute2]);
   
-    bitmap_layer_set_bitmap(s_hour1_layer, s_hour1_bitmap);
-    bitmap_layer_set_bitmap(s_hour2_layer, s_hour2_bitmap);
-    bitmap_layer_set_bitmap(s_minute1_layer, s_minute1_bitmap);
-    bitmap_layer_set_bitmap(s_minute2_layer, s_minute2_bitmap);
+    bitmap_layer_set_bitmap(s_hour1->bitmap_layer, s_hour1->bitmap);
+    bitmap_layer_set_bitmap(s_hour2->bitmap_layer, s_hour2->bitmap);
+    bitmap_layer_set_bitmap(s_minute1->bitmap_layer, s_minute1->bitmap);
+    bitmap_layer_set_bitmap(s_minute2->bitmap_layer, s_minute2->bitmap);
   }
 }
 
@@ -166,7 +166,7 @@ static void update_time() {
   minute1 = t->tm_min / 10;
   minute2 = t->tm_min - (minute1 * 10);
   
-  if (first_run == 3) {
+  if (first_run) {
     do_minute2 = true;
     if (minute2 == 0) {
      do_minute1 = true;
@@ -192,8 +192,8 @@ static void update_time() {
       layer_set_update_proc(s_background_layer, update_bg);
     }
   }
-  else if (first_run < 3) {
-    first_run += 1;
+  else if (!first_run) {
+    first_run = true;
     layer_mark_dirty(s_background_layer);
     layer_set_update_proc(s_background_layer, update_bg);
   }
@@ -227,33 +227,38 @@ static void main_window_load(Window *window) {
   
   s_background_layer = layer_create(bounds);
   
-  s_hour1_parent = layer_create(GRect(-144,0,BOX_X,BOX_Y));
-  s_hour2_parent = layer_create(GRect(72,-168,BOX_X,BOX_Y));
-  s_minute1_parent = layer_create(GRect(0,252,BOX_X,BOX_Y));
-  s_minute2_parent = layer_create(GRect(216,84,BOX_X,BOX_Y));
+  s_hour1 = (DigitLayer *)malloc(sizeof(DigitLayer));
+  s_hour2 = (DigitLayer *)malloc(sizeof(DigitLayer));
+  s_minute1 = (DigitLayer *)malloc(sizeof(DigitLayer));
+  s_minute2 = (DigitLayer *)malloc(sizeof(DigitLayer));
+  
+  s_hour1->parent_layer = layer_create(GRect(-144,0,BOX_X,BOX_Y));
+  s_hour2->parent_layer = layer_create(GRect(72,-168,BOX_X,BOX_Y));
+  s_minute1->parent_layer = layer_create(GRect(0,252,BOX_X,BOX_Y));
+  s_minute2->parent_layer = layer_create(GRect(216,84,BOX_X,BOX_Y));
   
   s_material_layer = bitmap_layer_create(bounds);
   s_material_bitmap = gbitmap_create_with_resource(RESOURCE_ID_BACKGROUND);
   bitmap_layer_set_bitmap(s_material_layer, s_material_bitmap);
   
-  s_hour1_layer = bitmap_layer_create(GRect(0,0,BOX_X,BOX_Y));
-  s_hour2_layer = bitmap_layer_create(GRect(0,0,BOX_X,BOX_Y));
-  s_minute1_layer = bitmap_layer_create(GRect(0,0,BOX_X,BOX_Y));
-  s_minute2_layer = bitmap_layer_create(GRect(0,0,BOX_X,BOX_Y));
+  s_hour1->bitmap_layer = bitmap_layer_create(GRect(0,0,BOX_X,BOX_Y));
+  s_hour2->bitmap_layer = bitmap_layer_create(GRect(0,0,BOX_X,BOX_Y));
+  s_minute1->bitmap_layer = bitmap_layer_create(GRect(0,0,BOX_X,BOX_Y));
+  s_minute2->bitmap_layer = bitmap_layer_create(GRect(0,0,BOX_X,BOX_Y));
   
   layer_add_to_window(s_background_layer, window);
   
   bitmap_layer_add_to_layer(s_material_layer, s_background_layer);
   
-  layer_add_to_layer(s_hour1_parent, s_background_layer);
-  layer_add_to_layer(s_hour2_parent, s_background_layer);
-  layer_add_to_layer(s_minute1_parent, s_background_layer);
-  layer_add_to_layer(s_minute2_parent, s_background_layer);
+  layer_add_to_layer(s_hour1->parent_layer, s_background_layer);
+  layer_add_to_layer(s_hour2->parent_layer, s_background_layer);
+  layer_add_to_layer(s_minute1->parent_layer, s_background_layer);
+  layer_add_to_layer(s_minute2->parent_layer, s_background_layer);
   
-  bitmap_layer_add_to_layer(s_hour1_layer, s_hour1_parent);
-  bitmap_layer_add_to_layer(s_hour2_layer, s_hour2_parent);
-  bitmap_layer_add_to_layer(s_minute1_layer, s_minute1_parent);
-  bitmap_layer_add_to_layer(s_minute2_layer, s_minute2_parent);
+  bitmap_layer_add_to_layer(s_hour1->bitmap_layer, s_hour1->parent_layer);
+  bitmap_layer_add_to_layer(s_hour2->bitmap_layer, s_hour2->parent_layer);
+  bitmap_layer_add_to_layer(s_minute1->bitmap_layer, s_minute1->parent_layer);
+  bitmap_layer_add_to_layer(s_minute2->bitmap_layer, s_minute2->parent_layer);
   
   update_time();
 }
@@ -261,21 +266,21 @@ static void main_window_load(Window *window) {
 static void main_window_unload(Window *window) {
   layer_destroy_safe(s_background_layer);
   
-  layer_destroy_safe(s_hour1_parent);
-  layer_destroy_safe(s_hour2_parent);
-  layer_destroy_safe(s_minute1_parent);
-  layer_destroy_safe(s_minute2_parent);
+  layer_destroy_safe(s_hour1->parent_layer);
+  layer_destroy_safe(s_hour2->parent_layer);
+  layer_destroy_safe(s_minute1->parent_layer);
+  layer_destroy_safe(s_minute2->parent_layer);
   
-  bitmap_layer_destroy_safe(s_hour1_layer);
-  bitmap_layer_destroy_safe(s_hour2_layer);
-  bitmap_layer_destroy_safe(s_minute1_layer);
-  bitmap_layer_destroy_safe(s_minute2_layer);
+  bitmap_layer_destroy_safe(s_hour1->bitmap_layer);
+  bitmap_layer_destroy_safe(s_hour2->bitmap_layer);
+  bitmap_layer_destroy_safe(s_minute1->bitmap_layer);
+  bitmap_layer_destroy_safe(s_minute2->bitmap_layer);
   bitmap_layer_destroy_safe(s_material_layer);
   
-  gbitmap_destroy_safe(s_hour1_bitmap);
-  gbitmap_destroy_safe(s_hour2_bitmap);
-  gbitmap_destroy_safe(s_minute1_bitmap);
-  gbitmap_destroy_safe(s_minute2_bitmap);
+  gbitmap_destroy_safe(s_hour1->bitmap);
+  gbitmap_destroy_safe(s_hour2->bitmap);
+  gbitmap_destroy_safe(s_minute1->bitmap);
+  gbitmap_destroy_safe(s_minute2->bitmap);
   gbitmap_destroy_safe(s_material_bitmap);
 }
 
