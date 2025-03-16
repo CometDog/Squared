@@ -27,9 +27,20 @@ typedef struct
   int position;
 } DigitLayer;
 
+/**
+ * Represents all of the DigitLayers available on the watch face
+ */
+typedef struct
+{
+  DigitLayer *hour1;
+  DigitLayer *hour2;
+  DigitLayer *minute1;
+  DigitLayer *minute2;
+} DigitLayers;
+
 static Window *s_main_window;
 static MaterialLayer *s_background;
-static DigitLayer *s_hour1, *s_hour2, *s_minute1, *s_minute2;
+static DigitLayers *digit_layers;
 
 static AppTimer *timer = NULL;
 
