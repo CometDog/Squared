@@ -10,3 +10,5 @@ typedef struct
     BitmapLayer *bitmap_layer;
     GBitmap *bitmap;
 } MaterialLayer;
+
+void invert_bitmap(GBitmap *bitmap);

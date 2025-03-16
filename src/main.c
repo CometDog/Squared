@@ -137,6 +137,11 @@ static void main_window_load(Window *window)
   load_digit_layer(digit_layers->minute1, 2);
   load_digit_layer(digit_layers->minute2, 3);
 
+#ifdef PBL_BW
+  invert_bitmap(digit_layers->hour2->material.bitmap);
+  invert_bitmap(digit_layers->minute1->material.bitmap);
+#endif
+
   layer_add_to_layer(digit_layers->hour1->material.parent_layer, background->parent_layer);
   layer_add_to_layer(digit_layers->hour2->material.parent_layer, background->parent_layer);
   layer_add_to_layer(digit_layers->minute1->material.parent_layer, background->parent_layer);
