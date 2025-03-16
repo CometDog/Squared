@@ -10,64 +10,64 @@
         "media": [
             {
                 "menuIcon": true,
-                "type": "png",
                 "name": "ICON",
-                "file": "images/icon.png"
+                "file": "images/icon.png",
+                "type": "bitmap"
             },
             {
                 "file": "images/t_1.png",
                 "name": "T1",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_2.png",
                 "name": "T2",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_3.png",
                 "name": "T3",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_4.png",
                 "name": "T4",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_5.png",
                 "name": "T5",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_6.png",
                 "name": "T6",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_7.png",
                 "name": "T7",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_8.png",
                 "name": "T8",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_9.png",
                 "name": "T9",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/t_0.png",
                 "name": "T0",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/background.png",
                 "name": "BACKGROUND",
-                "type": "png"
+                "type": "bitmap"
             }
         ]
     },
