@@ -1,6 +1,25 @@
 #include "main.h"
 
 /**
+ * Timer callback to set the idle flag
+ * @param data Unused
+ */
+static void timer_callback(void *data)
+{
+  idle = true;
+}
+
+/**
+ * Register 3 minute timer to set idle status
+ */
+static void register_idle_timer()
+{
+  idle = false;
+  app_timer_cancel(timer);
+  timer = app_timer_register(180 * 1000, timer_callback, NULL);
+}
+
+/**
  * Updates the time and triggers animations
  */
 static void update_time()
@@ -17,10 +36,10 @@ static void update_time()
   }
 
   // This relies on divison by assuming rounding down
-  digit_layers->hour1->value = hour / 10;
-  digit_layers->hour2->value = hour % 10;
-  digit_layers->minute1->value = t->tm_min / 10;
-  digit_layers->minute2->value = t->tm_min % 10;
+  update_digit_value(HOUR1, hour / 10);
+  update_digit_value(HOUR2, hour % 10);
+  update_digit_value(MINUTE1, t->tm_min / 10);
+  update_digit_value(MINUTE2, t->tm_min % 10);
 
   if (idle)
   {
@@ -30,41 +49,32 @@ static void update_time()
   else
   {
     // Last minute always updates
-    animate_digit_layer(digit_layers->minute2);
+    animate_digit(MINUTE2);
 
     // If the ones position of minute is not 0, we have not rolled over yet
-    if (digit_layers->minute2->value != 0)
+    if (get_digit_value(MINUTE2) != 0)
       return;
 
-    animate_digit_layer(digit_layers->minute1);
+    animate_digit(MINUTE1);
 
     // If the tens position of minute is not 0, we have not rolled over yet
-    if (digit_layers->minute1->value != 0)
+    if (get_digit_value(MINUTE1) != 0)
       return;
 
-    animate_digit_layer(digit_layers->hour2);
+    animate_digit(HOUR2);
 
     // If the ones position of hour is not 0, we have not rolled over yet
-    if (digit_layers->hour2->value != 0)
+    if (get_digit_value(HOUR2) != 0)
       return;
 
-    animate_digit_layer(digit_layers->hour1);
+    animate_digit(HOUR1);
 
     // Special case for 12-hour format when rolling from 12 to 1
-    if (!clock_is_24h_style() && digit_layers->hour2->value == 1 && digit_layers->hour1->value != 1)
+    if (!clock_is_24h_style() && get_digit_value(HOUR2) == 1 && get_digit_value(HOUR1) != 1)
     {
-      animate_digit_layer(digit_layers->hour1);
+      animate_digit(HOUR1);
     }
   }
-}
-
-/**
- * Timer callback to set the idle flag
- * @param data Unused
- */
-static void timer_callback(void *data)
-{
-  idle = true;
 }
 
 /**
@@ -74,10 +84,7 @@ static void timer_callback(void *data)
  */
 static void tap_handler(AccelAxisType axis, int32_t direction)
 {
-  idle = false;
-  app_timer_cancel(timer);
-  // After 3 minutes of inactivity, set the idle flag to disable animations
-  timer = app_timer_register(180 * 1000, timer_callback, NULL);
+  register_idle_timer();
 }
 
 /**
@@ -132,25 +139,14 @@ static void main_window_load(Window *window)
   update_time();
 
   // Initialize digit layers
-  load_digit_layer(digit_layers->hour1, 0);
-  load_digit_layer(digit_layers->hour2, 1);
-  load_digit_layer(digit_layers->minute1, 2);
-  load_digit_layer(digit_layers->minute2, 3);
+  load_digit_layers();
 
-#ifdef PBL_BW
-  invert_bitmap(digit_layers->hour2->material.bitmap);
-  invert_bitmap(digit_layers->minute1->material.bitmap);
-#endif
+  add_digit_layers_to_layer(background->parent_layer);
 
-  layer_add_to_layer(digit_layers->hour1->material.parent_layer, background->parent_layer);
-  layer_add_to_layer(digit_layers->hour2->material.parent_layer, background->parent_layer);
-  layer_add_to_layer(digit_layers->minute1->material.parent_layer, background->parent_layer);
-  layer_add_to_layer(digit_layers->minute2->material.parent_layer, background->parent_layer);
-
-  animate_digit_layer(digit_layers->hour1);
-  animate_digit_layer(digit_layers->hour2);
-  animate_digit_layer(digit_layers->minute1);
-  animate_digit_layer(digit_layers->minute2);
+  animate_digit(HOUR1);
+  animate_digit(HOUR2);
+  animate_digit(MINUTE1);
+  animate_digit(MINUTE2);
 }
 
 /**
@@ -160,10 +156,7 @@ static void main_window_load(Window *window)
 static void main_window_unload(Window *window)
 {
   // Deinit digit layers
-  unload_digit_layer(digit_layers->hour1);
-  unload_digit_layer(digit_layers->hour2);
-  unload_digit_layer(digit_layers->minute1);
-  unload_digit_layer(digit_layers->minute2);
+  unload_digit_layers();
 
   layer_destroy_safe(background->parent_layer);
   bitmap_layer_destroy_safe(background->bitmap_layer);
@@ -183,7 +176,7 @@ static void init()
   accel_tap_service_subscribe(tap_handler);
   bluetooth_connection_service_subscribe(bt_handler);
 
-  timer = app_timer_register(180 * 1000, timer_callback, NULL);
+  register_idle_timer();
 }
 
 /**
