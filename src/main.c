@@ -1,4 +1,5 @@
 #include "main.h"
+#include "@pebble-libraries/debug-tick-timer-service/debug-tick-timer-service.h"
 
 /**
  * Timer callback to set the idle flag
@@ -20,13 +21,11 @@ static void register_idle_timer()
 }
 
 /**
- * Updates the time and triggers animations
+ * Updates the time and triggers animations based on given time
+ * @param t tm struct representing the time to update the clock to
  */
-static void update_time()
+static void update_time(struct tm *t)
 {
-  time_t epoch = time(NULL);
-  struct tm *t = localtime(&epoch);
-
   int hour = t->tm_hour;
   if (!clock_is_24h_style())
   {
@@ -77,6 +76,16 @@ static void update_time()
 }
 
 /**
+ * Updates the time and triggers animations based on current time
+ */
+static void update_time_now()
+{
+  time_t epoch = time(NULL);
+  struct tm *t = localtime(&epoch);
+  update_time(t);
+}
+
+/**
  * Tap handler to reset the idle timer
  * @param axis The axis of the tap. Unused
  * @param direction The direction of the tap. Unused
@@ -104,7 +113,7 @@ static void bt_handler(bool connected)
 
 /**
  * Handle time tick event
- * @param tick_time Pointer to the time structure. Unused
+ * @param tick_time Pointer to the time structure
  * @param units_changed The units that have changed.
  */
 static void tick_handler(struct tm *tick_time, TimeUnits units_changed)
@@ -112,7 +121,7 @@ static void tick_handler(struct tm *tick_time, TimeUnits units_changed)
   // Update time every minute
   if (units_changed & MINUTE_UNIT)
   {
-    update_time();
+    update_time(tick_time);
   }
 }
 
@@ -135,7 +144,7 @@ static void main_window_load(Window *window)
   layer_add_to_window(background->parent_layer, window);
   bitmap_layer_add_to_layer(background->bitmap_layer, background->parent_layer);
 
-  update_time();
+  update_time_now();
 
   // Initialize digit layers
   load_digit_layers();
@@ -171,7 +180,7 @@ static void init()
   window_handlers(main_window, main_window_load, main_window_unload);
   window_stack_push(main_window, true);
 
-  tick_timer_service_subscribe(MINUTE_UNIT, tick_handler);
+  debug_tick_timer_service_subscribe(MINUTE_UNIT, tick_handler, REAL);
   accel_tap_service_subscribe(tap_handler);
   bluetooth_connection_service_subscribe(bt_handler);
 
@@ -183,6 +192,7 @@ static void init()
  */
 static void deinit()
 {
+  debug_tick_timer_service_unsubscribe();
   animation_unschedule_all();
   accel_tap_service_unsubscribe();
   bluetooth_connection_service_unsubscribe();
