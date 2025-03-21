@@ -41,39 +41,38 @@ static void update_time()
   update_digit_value(MINUTE1, t->tm_min / 10);
   update_digit_value(MINUTE2, t->tm_min % 10);
 
+  void (*function_to_run)(DIGIT);
+  function_to_run = animate_digit;
   if (idle)
   {
-    // When idle, just perform a non-animated update
-    layer_mark_dirty(background->parent_layer);
+    function_to_run = update_digit_bitmap;
   }
-  else
+
+  // Last minute always updates
+  function_to_run(MINUTE2);
+
+  // If the ones position of minute is not 0, we have not rolled over yet
+  if (get_digit_value(MINUTE2) != 0)
+    return;
+
+  function_to_run(MINUTE1);
+
+  // If the tens position of minute is not 0, we have not rolled over yet
+  if (get_digit_value(MINUTE1) != 0)
+    return;
+
+  function_to_run(HOUR2);
+
+  // If the ones position of hour is not 0, we have not rolled over yet
+  if (get_digit_value(HOUR2) != 0)
+    return;
+
+  function_to_run(HOUR1);
+
+  // Special case for 12-hour format when rolling from 12 to 1
+  if (!clock_is_24h_style() && get_digit_value(HOUR2) == 1 && get_digit_value(HOUR1) != 1)
   {
-    // Last minute always updates
-    animate_digit(MINUTE2);
-
-    // If the ones position of minute is not 0, we have not rolled over yet
-    if (get_digit_value(MINUTE2) != 0)
-      return;
-
-    animate_digit(MINUTE1);
-
-    // If the tens position of minute is not 0, we have not rolled over yet
-    if (get_digit_value(MINUTE1) != 0)
-      return;
-
-    animate_digit(HOUR2);
-
-    // If the ones position of hour is not 0, we have not rolled over yet
-    if (get_digit_value(HOUR2) != 0)
-      return;
-
-    animate_digit(HOUR1);
-
-    // Special case for 12-hour format when rolling from 12 to 1
-    if (!clock_is_24h_style() && get_digit_value(HOUR2) == 1 && get_digit_value(HOUR1) != 1)
-    {
-      animate_digit(HOUR1);
-    }
+    function_to_run(HOUR1);
   }
 }
 

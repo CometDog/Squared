@@ -96,7 +96,8 @@ DigitLayer *get_digit_layer_for_digit(DIGIT digit)
 }
 
 /**
- * Adds the next appropriate bitmap to the DigitLayer given the current time
+ * Adds the next appropriate bitmap to the DigitLayer based on its internal time value
+ * @param digit_layer The DigitLayer to update
  */
 void update_digit_layer_bitmap(DigitLayer *digit_layer)
 {
@@ -107,6 +108,19 @@ void update_digit_layer_bitmap(DigitLayer *digit_layer)
         invert_bitmap(digit_layer->material.bitmap);
 #endif
     bitmap_layer_set_bitmap(digit_layer->material.bitmap_layer, digit_layer->material.bitmap);
+}
+
+/**
+ * Adds the next appropriate bitmap to the DigitLayer based on its internal time value
+ * @param digit Digit to update on the clock
+ */
+void update_digit_bitmap(DIGIT digit)
+{
+    DigitLayer *digit_layer = get_digit_layer_for_digit(digit);
+    if (!digit_layer)
+        return;
+
+    update_digit_layer_bitmap(digit_layer);
 }
 
 /**

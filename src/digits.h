@@ -18,3 +18,4 @@ void add_digit_layers_to_layer(Layer *layer);
 void load_digit_layers();
 void unload_digit_layers();
 void init_digit_layers();
+void update_digit_bitmap(DIGIT digit);
