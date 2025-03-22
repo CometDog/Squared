@@ -34,12 +34,6 @@ static void update_time(struct tm *t)
       hour = 12;
   }
 
-  // This relies on divison by assuming rounding down
-  update_digit_value(HOUR1, hour / 10);
-  update_digit_value(HOUR2, hour % 10);
-  update_digit_value(MINUTE1, t->tm_min / 10);
-  update_digit_value(MINUTE2, t->tm_min % 10);
-
   void (*function_to_run)(DIGIT);
   function_to_run = animate_digit;
   if (idle)
@@ -47,30 +41,38 @@ static void update_time(struct tm *t)
     function_to_run = update_digit_bitmap;
   }
 
-  // Last minute always updates
-  function_to_run(MINUTE2);
+  int new_minute_2_value = t->tm_min % 10;
+  if (get_digit_value(MINUTE2) != new_minute_2_value)
+  {
+    update_digit_value(MINUTE2, new_minute_2_value);
+    function_to_run(MINUTE2);
+  }
 
-  // If the ones position of minute is not 0, we have not rolled over yet
-  if (get_digit_value(MINUTE2) != 0)
-    return;
+  int new_minute_1_value = t->tm_min / 10;
+  if (get_digit_value(MINUTE1) != new_minute_1_value)
+  {
+    update_digit_value(MINUTE1, new_minute_1_value);
+    function_to_run(MINUTE1);
+  }
 
-  function_to_run(MINUTE1);
+  int new_hour_2_value = hour % 10;
+  if (get_digit_value(HOUR2) != new_hour_2_value)
+  {
+    update_digit_value(HOUR2, new_hour_2_value);
+    function_to_run(HOUR2);
+  }
 
-  // If the tens position of minute is not 0, we have not rolled over yet
-  if (get_digit_value(MINUTE1) != 0)
-    return;
-
-  function_to_run(HOUR2);
-
-  // If the ones position of hour is not 0, we have not rolled over yet
-  if (get_digit_value(HOUR2) != 0)
-    return;
-
-  function_to_run(HOUR1);
+  int new_hour_1_value = hour / 10;
+  if (get_digit_value(HOUR1) != new_hour_1_value)
+  {
+    update_digit_value(HOUR1, new_hour_1_value);
+    function_to_run(HOUR1);
+  }
 
   // Special case for 12-hour format when rolling from 12 to 1
   if (!clock_is_24h_style() && get_digit_value(HOUR2) == 1 && get_digit_value(HOUR1) != 1)
   {
+    update_digit_value(HOUR1, 0);
     function_to_run(HOUR1);
   }
 }
