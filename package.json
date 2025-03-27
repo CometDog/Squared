@@ -1,0 +1,91 @@
+{
+    "name": "squared",
+    "author": "James Downs",
+    "version": "2.0",
+    "keywords": [
+        "pebble-app"
+    ],
+    "private": true,
+    "dependencies": {},
+    "pebble": {
+        "displayName": "Squared",
+        "uuid": "3774eb9a-3e5f-4b29-8860-3c4c8c1656bd",
+        "sdkVersion": "3",
+        "enableMultiJS": false,
+        "capabilities": [],
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "watchapp": {
+            "watchface": true
+        },
+        "messageKeys": [],
+        "resources": {
+            "media": [
+                {
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "file": "images/icon.png",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_1.png",
+                    "name": "T1",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_2.png",
+                    "name": "T2",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_3.png",
+                    "name": "T3",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_4.png",
+                    "name": "T4",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_5.png",
+                    "name": "T5",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_6.png",
+                    "name": "T6",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_7.png",
+                    "name": "T7",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_8.png",
+                    "name": "T8",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_9.png",
+                    "name": "T9",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/t_0.png",
+                    "name": "T0",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background.png",
+                    "name": "BACKGROUND",
+                    "type": "bitmap"
+                }
+            ]
+        }
+    }
+}
